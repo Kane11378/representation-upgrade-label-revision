@@ -1,0 +1,104 @@
+{
+  "status": "FROZEN_FOR_LATER_EXECUTION",
+  "created_utc": "2026-10-06T12:43:25.139302+00:00",
+  "study": "Independent Food101 controlled-pool study",
+  "classes": 101,
+  "selected_new_encoder": null,
+  "frontend": {
+    "name": "rectangular_similarity_procrustes",
+    "old_dim": 512,
+    "new_dim": 768,
+    "mode": "similarity",
+    "fit_count": 512,
+    "pilot_count": 512,
+    "arithmetic": "FP64 in approved reference",
+    "fit": "Exact frozen fit pairs",
+    "pilot": "Exact frozen pilot pairs; mean residual translation only",
+    "formula": {
+      "centering": "mx=mean(X_fit); my=mean(Y_fit); Xc=X_fit-mx; Yc=Y_fit-my",
+      "rectangular_rotation": "U,s,Vt=SVD(Xc.T@Yc,full_matrices=False); R=U@Vt",
+      "scale": "sum(s)/sum(Xc*Xc)",
+      "pilot_translation": "mean(Y_pilot-(my+scale*(X_pilot-mx)@R))",
+      "proxy": "my+bias+scale*(X-mx)@R"
+    },
+    "rotation_or_scale_refit_using_pilot": false,
+    "determinant_correction": false,
+    "extra_output_normalization": false,
+    "variants_allowed": false,
+    "executed": false
+  },
+  "backend": {
+    "current_core_sha256": "0b28ae97c4fcd65eb901938e06a8642a899e5c32208b239da7b4ac64101d6bd7",
+    "semantics": "Exact approved current_core implementation; record only, not imported/constructed/solved.",
+    "methods": [
+      "mean",
+      "paired025"
+    ],
+    "controls": [
+      "sample_current",
+      "full_target_ridge"
+    ],
+    "alpha": 0.25,
+    "ridge": 1.0,
+    "shrink": 0.1,
+    "augmented_bias_coordinate": 1.0,
+    "ridge_includes_bias_coordinate": true,
+    "feature_version": "v2",
+    "paired025": "0.75*w_mean + 0.25*w_sample using paired current Q_sample/H_sample",
+    "initial_known_evidence": "fit and pilot",
+    "initial_certainty_evidence": "fit only",
+    "certainty_independent_of_label_correctness": true,
+    "sample_remaining_population": "remaining=~certainty; fixed pilot still remaining; weight nr/len(p)",
+    "common_evidence": true,
+    "request_refresh_before_label_release": true,
+    "R1": "History only; announce, authoritative target refresh, old-label after_refresh, then release requested clean labels",
+    "E": "Append all locked E with target features, historical labels and per-image label version zero before R2",
+    "R2": "Remaining corrupted history plus all corrupted E; authoritative refresh then clean label release",
+    "label_version": "Every disjoint requested image v0 -> v1 exactly once",
+    "full_target_reference": "All active target features with exactly current stage active labels; evaluator-only",
+    "evaluator": "Only common clean fold5; never candidate state, fit/pilot, requests, corruption or encoder selection",
+    "future_evaluator_target_features_and_clean_labels": "Evaluator-only, never candidate evidence/state",
+    "executed": false
+  },
+  "approved_method_reference": {
+    "frontend": "approved_procrustes_alignment.py",
+    "backend": "approved_current_core.py",
+    "metric_formula_reference": "approved_bridge_resume.py",
+    "source_lineage": "Approved prior 011 rectangular Procrustes / current_core sources, not the closed GTSRB qualification study.",
+    "execution_allowed_in_this_task": false,
+    "old_dim": 512,
+    "new_dim": 768,
+    "mode": "similarity",
+    "fit_pairs": 512,
+    "pilot_pairs": 512,
+    "formula": {
+      "center": "mx=mean(Xfit,axis=0); my=mean(Yfit,axis=0); Xc=Xfit-mx; Yc=Yfit-my.",
+      "rotation": "U,s,Vt=SVD(Xc.T@Yc,full_matrices=False); R=U@Vt.",
+      "scale": "sum(s)/sum(Xc*Xc)",
+      "pilot_translation": "bias=mean(Ypilot-[my+scale*(Xpilot-mx)@R],axis=0).",
+      "proxy": "my+bias+scale*(X-mx)@R",
+      "pilot_refits_rotation_or_scale": false,
+      "determinant_correction": false,
+      "proxy_post_normalization": false
+    },
+    "backend_constants": {
+      "alpha": 0.25,
+      "ridge": 1.0,
+      "shrink": 0.1
+    },
+    "methods": [
+      "mean",
+      "paired025"
+    ],
+    "controls": [
+      "sample_current",
+      "full_target_ridge"
+    ],
+    "augmented_bias_coordinate": 1.0,
+    "ridge_includes_bias_coordinate": true
+  },
+  "FastFill": false,
+  "alpha_or_ridge_or_shrink_or_frontend_variants": false,
+  "qualification_executed": false,
+  "revision_executed": false
+}

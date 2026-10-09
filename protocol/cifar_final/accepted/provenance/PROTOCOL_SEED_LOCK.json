@@ -1,0 +1,16 @@
+{
+  "task": "FASTFILL_FINAL_UNSEEN_PROTOCOL_FREEZE_01",
+  "status": "SEED_FROZEN_BEFORE_RESERVE_LABEL_ACCESS",
+  "protocol_seed": 907001,
+  "stream_count": 1,
+  "alternative_seeds_allowed": false,
+  "rng": "numpy.random.default_rng; three independently initialized instances",
+  "split_seed": 907001,
+  "request_seed": 907001,
+  "pair_seed": 907001,
+  "seed_mapping_basis": "The new task fixes one protocol seed907001 for split, fit/pilot and requests. Each old independently seeded RNG receives this specified seed; retain independent generator creation and draw ordering. Do not retain old numerical seed offsets or create additional streams.",
+  "reserve_label_arrays_read": false,
+  "reserve_label_or_request_statistics_generated": false,
+  "source_algorithm_lock_required_before_reserve_labels": true,
+  "performance_or_class_counts_used_to_select_seed": false
+}

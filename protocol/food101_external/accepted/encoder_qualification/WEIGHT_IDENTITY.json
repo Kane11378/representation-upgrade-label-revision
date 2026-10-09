@@ -1,0 +1,55 @@
+{
+  "status": "ALL_FOUR_WEIGHT_IDENTITIES_PASS",
+  "started_utc": "2026-10-06T13:02:15.142408+00:00",
+  "completed_utc": "2026-10-06T13:04:19.990640+00:00",
+  "encoders": {
+    "resnet18": {
+      "bytes": 46830571,
+      "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "published_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "published_sha256_prefix": "f37072fd",
+      "published_prefix_match": true,
+      "weights_enum": "ResNet18_Weights.IMAGENET1K_V1",
+      "source": "existing_exact_official_payload_read_only",
+      "download_wall_seconds": 0.0,
+      "loaded_or_deserialized": false
+    },
+    "convnext_tiny": {
+      "bytes": 114419221,
+      "sha256": "983f1562536e84ff750a1576fb08e54de751dbf2e17c0d8a4a13704341fdcd3d",
+      "published_url": "https://download.pytorch.org/models/convnext_tiny-983f1562.pth",
+      "published_sha256_prefix": "983f1562",
+      "published_prefix_match": true,
+      "weights_enum": "ConvNeXt_Tiny_Weights.IMAGENET1K_V1",
+      "source": "existing_exact_official_payload_read_only",
+      "download_wall_seconds": 0.0,
+      "loaded_or_deserialized": false
+    },
+    "swin_t": {
+      "bytes": 113445839,
+      "sha256": "704ceda373461b0a224fcdddd75cd2a5e9f8064512ed47adbddef7f343fd147b",
+      "published_url": "https://download.pytorch.org/models/swin_t-704ceda3.pth",
+      "published_sha256_prefix": "704ceda3",
+      "published_prefix_match": true,
+      "weights_enum": "Swin_T_Weights.IMAGENET1K_V1",
+      "source": "official_frozen_URL_download",
+      "download_wall_seconds": 31.065100199999506,
+      "loaded_or_deserialized": false
+    },
+    "vit_b_16": {
+      "bytes": 346328529,
+      "sha256": "c867db91d3e12c6cbadabb610d73c24a546bf82d8c03a9fea34f43a712ddb0e9",
+      "published_url": "https://download.pytorch.org/models/vit_b_16-c867db91.pth",
+      "published_sha256_prefix": "c867db91",
+      "published_prefix_match": true,
+      "weights_enum": "ViT_B_16_Weights.IMAGENET1K_V1",
+      "source": "official_frozen_URL_download",
+      "download_wall_seconds": 93.39313359999869,
+      "loaded_or_deserialized": false
+    }
+  },
+  "model_objects_constructed": 0,
+  "model_forwards": 0,
+  "image_decodes": 0,
+  "old_files_modified": false
+}

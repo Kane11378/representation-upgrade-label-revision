@@ -1,0 +1,7 @@
+{
+  "status": "FOOD101_EXTERNAL_PRIMARY_CONFIRMED_BOTH",
+  "independent_audit_status": "INDEPENDENT_CONFIRMATION_AUDIT_PASS",
+  "completed_utc": "2026-10-06T15:33:45.809534+00:00",
+  "stop_after_package": true,
+  "automatic_next_experiment": false
+}

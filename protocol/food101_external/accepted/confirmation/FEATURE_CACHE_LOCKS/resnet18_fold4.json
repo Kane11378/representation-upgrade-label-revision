@@ -1,0 +1,75 @@
+{
+  "access_log": {
+    "bytes": 1458785,
+    "encoder": "resnet18",
+    "fold": 4,
+    "image_count": 4141,
+    "sha256": "0718824e730a67928035583fbd9473cf4c6074c3c70e985dbd49390caa5149d0"
+  },
+  "arrays": {
+    "features": {
+      "c_order_raw_sha256": "f1fa1ea45ff71483dd3f6d7e49dd9c31c8540a6cf75045207fe2f212a67379b0",
+      "dtype": "<f4",
+      "shape": [
+        4141,
+        512
+      ]
+    },
+    "image_ids": {
+      "c_order_raw_sha256": "4a2d2de42602613ae9d9e32493f84a3092f09a1c3d837e7509e6c210fb377dad",
+      "dtype": "<U64",
+      "shape": [
+        4141
+      ]
+    },
+    "labels": {
+      "c_order_raw_sha256": "4f7657b47153db465c5377c04529f3dbf4e2b81d1a0b1e847e488f97da5ac499",
+      "dtype": "<i8",
+      "shape": [
+        4141
+      ]
+    },
+    "rows": {
+      "c_order_raw_sha256": "6ecef45f8944ecb84fd135aeca5ddf23fb89e01b3f8311ce7763a0836ff86867",
+      "dtype": "<i8",
+      "shape": [
+        4141
+      ]
+    }
+  },
+  "bytes": 9608124,
+  "created_utc": "2026-10-06T14:47:46.133287+00:00",
+  "encoder": "resnet18",
+  "encoding_wall_seconds": 50.23933810000017,
+  "fold": 4,
+  "hook_definition": "Output of avgpool followed by flatten(start_dim=1), exactly the input to fc.",
+  "hook_module": "fc",
+  "row_norm_max": 1.0000001362891786,
+  "row_norm_min": 0.9999998583919633,
+  "semantic_digest": "13f1caf7fbb443a4dd1698c790918bac94b941e9848a37133e67c747a495784f",
+  "sha256": "a9e7288b01323ec83328388bd97c0d9568b152e0be1ca37e52b43086c5198f1b",
+  "status": "FEATURE_CACHE_IDENTITY_PASS",
+  "transform": {
+    "antialias": true,
+    "crop_size": [
+      224
+    ],
+    "enum": "ResNet18_Weights.IMAGENET1K_V1",
+    "implementation": "torchvision.transforms._presets.ImageClassification",
+    "interpolation": "BILINEAR",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "resize_size": [
+      256
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth"
+  }
+}

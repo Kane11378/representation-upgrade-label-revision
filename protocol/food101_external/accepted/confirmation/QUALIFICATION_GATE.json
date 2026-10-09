@@ -1,0 +1,495 @@
+{
+  "accepted_runtime": {
+    "actual_runtime": {
+      "python": "3.12.14",
+      "torch": "2.14.1+cpu",
+      "torch_git_version": "5c4886908584029761b579af026dcfb627c84070",
+      "torchvision": "0.29.1+cpu",
+      "torchvision_git_version": "1f1a920d685d46dfbe187934b785b7ecb7a182f2"
+    },
+    "blocked_platform_probes": [
+      {
+        "actual_execution": false,
+        "classification": "WINDOWS_PLATFORM_VERSION_METADATA_PROBE",
+        "cwd": null,
+        "denied": true,
+        "event": "subprocess.Popen",
+        "stack": [
+          {
+            "function": "audit",
+            "line": 158
+          },
+          {
+            "function": "_execute_child",
+            "line": 1534
+          },
+          {
+            "function": "__init__",
+            "line": 1026
+          },
+          {
+            "function": "run",
+            "line": 548
+          },
+          {
+            "function": "check_output",
+            "line": 466
+          },
+          {
+            "function": "_syscmd_ver",
+            "line": 283
+          },
+          {
+            "function": "_win32_ver",
+            "line": 414
+          },
+          {
+            "function": "win32_ver",
+            "line": 450
+          },
+          {
+            "function": "uname",
+            "line": 922
+          },
+          {
+            "function": "machine",
+            "line": 1024
+          },
+          {
+            "function": "_load_dll_libraries",
+            "line": 268
+          },
+          {
+            "function": "<module>",
+            "line": 309
+          },
+          {
+            "file": "<frozen importlib._bootstrap>",
+            "function": "_call_with_frames_removed",
+            "line": 488
+          },
+          {
+            "file": "<frozen importlib._bootstrap_external>",
+            "function": "exec_module",
+            "line": 999
+          },
+          {
+            "file": "<frozen importlib._bootstrap>",
+            "function": "_load_unlocked",
+            "line": 935
+          },
+          {
+            "file": "<frozen importlib._bootstrap>",
+            "function": "_find_and_load_unlocked",
+            "line": 1331
+          },
+          {
+            "file": "<frozen importlib._bootstrap>",
+            "function": "_find_and_load",
+            "line": 1360
+          },
+          {
+            "function": "import_runtime",
+            "line": 204
+          },
+          {
+            "function": "runtime_check",
+            "line": 226
+          },
+          {
+            "function": "main",
+            "line": 593
+          },
+          {
+            "function": "<module>",
+            "line": 600
+          }
+        ],
+        "utc": "2026-10-06T13:26:05.502358+00:00"
+      },
+      {
+        "actual_execution": false,
+        "classification": "WINDOWS_PLATFORM_VERSION_METADATA_PROBE",
+        "cwd": null,
+        "denied": true,
+        "event": "subprocess.Popen",
+        "stack": [
+          {
+            "function": "audit",
+            "line": 158
+          },
+          {
+            "function": "_execute_child",
+            "line": 1534
+          },
+          {
+            "function": "__init__",
+            "line": 1026
+          },
+          {
+            "function": "run",
+            "line": 548
+          },
+          {
+            "function": "check_output",
+            "line": 466
+          },
+          {
+            "function": "_syscmd_ver",
+            "line": 283
+          },
+          {
+            "function": "_win32_ver",
+            "line": 414
+          },
+          {
+            "function": "win32_ver",
+            "line": 450
+          },
+          {
+            "function": "uname",
+            "line": 922
+          },
+          {
+            "function": "machine",
+            "line": 1024
+          },
+          {
+            "function": "_load_dll_libraries",
+            "line": 268
+          },
+          {
+            "function": "<module>",
+            "line": 309
+          },
+          {
+            "file": "<frozen importlib._bootstrap>",
+            "function": "_call_with_frames_removed",
+            "line": 488
+          },
+          {
+            "file": "<frozen importlib._bootstrap_external>",
+            "function": "exec_module",
+            "line": 999
+          },
+          {
+            "file": "<frozen importlib._bootstrap>",
+            "function": "_load_unlocked",
+            "line": 935
+          },
+          {
+            "file": "<frozen importlib._bootstrap>",
+            "function": "_find_and_load_unlocked",
+            "line": 1331
+          },
+          {
+            "file": "<frozen importlib._bootstrap>",
+            "function": "_find_and_load",
+            "line": 1360
+          },
+          {
+            "function": "import_runtime",
+            "line": 204
+          },
+          {
+            "function": "runtime_check",
+            "line": 226
+          },
+          {
+            "function": "main",
+            "line": 593
+          },
+          {
+            "function": "<module>",
+            "line": 600
+          }
+        ],
+        "utc": "2026-10-06T13:26:05.506865+00:00"
+      },
+      {
+        "actual_execution": false,
+        "classification": "WINDOWS_PLATFORM_VERSION_METADATA_PROBE",
+        "cwd": null,
+        "denied": true,
+        "event": "subprocess.Popen",
+        "stack": [
+          {
+            "function": "audit",
+            "line": 158
+          },
+          {
+            "function": "_execute_child",
+            "line": 1534
+          },
+          {
+            "function": "__init__",
+            "line": 1026
+          },
+          {
+            "function": "run",
+            "line": 548
+          },
+          {
+            "function": "check_output",
+            "line": 466
+          },
+          {
+            "function": "_syscmd_ver",
+            "line": 283
+          },
+          {
+            "function": "_win32_ver",
+            "line": 414
+          },
+          {
+            "function": "win32_ver",
+            "line": 450
+          },
+          {
+            "function": "uname",
+            "line": 922
+          },
+          {
+            "function": "machine",
+            "line": 1024
+          },
+          {
+            "function": "_load_dll_libraries",
+            "line": 268
+          },
+          {
+            "function": "<module>",
+            "line": 309
+          },
+          {
+            "file": "<frozen importlib._bootstrap>",
+            "function": "_call_with_frames_removed",
+            "line": 488
+          },
+          {
+            "file": "<frozen importlib._bootstrap_external>",
+            "function": "exec_module",
+            "line": 999
+          },
+          {
+            "file": "<frozen importlib._bootstrap>",
+            "function": "_load_unlocked",
+            "line": 935
+          },
+          {
+            "file": "<frozen importlib._bootstrap>",
+            "function": "_find_and_load_unlocked",
+            "line": 1331
+          },
+          {
+            "file": "<frozen importlib._bootstrap>",
+            "function": "_find_and_load",
+            "line": 1360
+          },
+          {
+            "function": "import_runtime",
+            "line": 204
+          },
+          {
+            "function": "runtime_check",
+            "line": 226
+          },
+          {
+            "function": "main",
+            "line": 593
+          },
+          {
+            "function": "<module>",
+            "line": 600
+          }
+        ],
+        "utc": "2026-10-06T13:26:05.511374+00:00"
+      }
+    ],
+    "completed_utc": "2026-10-06T13:26:14.053563+00:00",
+    "created_utc": "2026-10-06T13:26:05.250505+00:00",
+    "execution_source_lock_identity": {
+      "bytes": 8027,
+      "sha256": "7e3412842f56522e64ff5cf6ad96fa0468b7d967f6c59d4d8d7dd390fee05c9e"
+    },
+    "forbidden_attempts": [],
+    "frozen_runtime": {
+      "python": "3.12.14",
+      "torch": "2.14.1+cpu",
+      "torchvision": "0.29.1+cpu"
+    },
+    "image_opens": [],
+    "model_candidate_lock_identity": {
+      "bytes": 12679,
+      "sha256": "5848e9565cfe07b1da16fc42701bf1a0ef13a40c4087293708ca5e5af0abdff3"
+    },
+    "runtime_access_evidence_identity": {
+      "bytes": 17109,
+      "sha256": "e6062488ea81ff2b26fd2c02a7d8a265459599da7711c9821ef690cbf4a355b5"
+    },
+    "runtime_status": "FOOD101_QUALIFICATION_RUNTIME_IDENTITY_PASS",
+    "settings": {
+      "batch_size": 32,
+      "device": "cpu",
+      "float32_matmul_precision": "highest",
+      "gradient": "torch.no_grad",
+      "mode": "eval",
+      "num_interop_threads": 1,
+      "num_threads": 8,
+      "numpy_BLAS_threads": 8,
+      "precision": "FP32",
+      "shuffle": false,
+      "workers": 0
+    },
+    "sources": [
+      {
+        "bytes": 323,
+        "expected_bytes": 323,
+        "expected_sha256": "0d5cd125dd13835680b112f6e51c7c3187f8a2417de055ae576077a671d3d4b0",
+        "identity_match": true,
+        "sha256": "0d5cd125dd13835680b112f6e51c7c3187f8a2417de055ae576077a671d3d4b0"
+      },
+      {
+        "bytes": 206,
+        "expected_bytes": 206,
+        "expected_sha256": "bda569d9ce78fffbe550d66c5f2d40a2884b5302ef89bc41dc6a3e7d64a02b40",
+        "identity_match": true,
+        "sha256": "bda569d9ce78fffbe550d66c5f2d40a2884b5302ef89bc41dc6a3e7d64a02b40"
+      },
+      {
+        "bytes": 10241,
+        "expected_bytes": 10241,
+        "expected_sha256": "57a956a2982036cfd64a9a636ad7b2155c23fb1fcc654980575fe6de485218dd",
+        "identity_match": true,
+        "sha256": "57a956a2982036cfd64a9a636ad7b2155c23fb1fcc654980575fe6de485218dd"
+      },
+      {
+        "bytes": 39905,
+        "expected_bytes": 39905,
+        "expected_sha256": "7c329198f414e411dd64d67784c1f7efbb1e85bdb8e160b8c5d5c5619f9ab119",
+        "identity_match": true,
+        "sha256": "7c329198f414e411dd64d67784c1f7efbb1e85bdb8e160b8c5d5c5619f9ab119"
+      },
+      {
+        "bytes": 8721,
+        "expected_bytes": 8721,
+        "expected_sha256": "897e4bafca99bc703e5313808c11fe8938aee66ea5da1411c0944eb31603b3fc",
+        "identity_match": true,
+        "sha256": "897e4bafca99bc703e5313808c11fe8938aee66ea5da1411c0944eb31603b3fc"
+      },
+      {
+        "bytes": 15762,
+        "expected_bytes": 15762,
+        "expected_sha256": "c4ce8859498fdfe4d29fbf7f00f0385834a0ccbe494915ef225789c959a64588",
+        "identity_match": true,
+        "sha256": "c4ce8859498fdfe4d29fbf7f00f0385834a0ccbe494915ef225789c959a64588"
+      },
+      {
+        "bytes": 40364,
+        "expected_bytes": 40364,
+        "expected_sha256": "be3b74f7974d7eebcc5f5f96106ef6b6a7bfc7102db012d0cadb6cf3c2f6bc1f",
+        "identity_match": true,
+        "sha256": "be3b74f7974d7eebcc5f5f96106ef6b6a7bfc7102db012d0cadb6cf3c2f6bc1f"
+      },
+      {
+        "bytes": 32988,
+        "expected_bytes": 32988,
+        "expected_sha256": "a832238318b4c406a9051cab8941538ee22c4de5a2410d369d96a4b3b4a10a81",
+        "identity_match": true,
+        "sha256": "a832238318b4c406a9051cab8941538ee22c4de5a2410d369d96a4b3b4a10a81"
+      }
+    ],
+    "status": "PASS"
+  },
+  "created_utc": "2026-10-06T14:30:29.796827+00:00",
+  "current_static_source_identities_reverified": true,
+  "new_accuracy_computed": false,
+  "qualification_external_feature_payloads_read": false,
+  "qualification_status": "FOOD101_ENCODER_UPGRADE_QUALIFIED",
+  "qualification_zip": {
+    "bytes": 8394333,
+    "complete_manifest_disk_and_zip_pass": true,
+    "crc_pass": true,
+    "manifest_identity": {
+      "bytes": 16673,
+      "sha256": "f05a64090823c9858777b2b02c36abe263363f6692dd03deb75bf960e9c3a07d"
+    },
+    "manifest_record_count": 105,
+    "members": 106,
+    "sha256": "5fd3e8a50f650b72282273de857266627effaeb2aa688e91e45b13a8b64ed991"
+  },
+  "selected_encoder": "swin_t",
+  "selected_encoder_lock_identity": {
+    "bytes": 2558,
+    "sha256": "ee06a037237b533ddae065819e51c573e286f3d3b55d87e274e0afb20bef2aeb"
+  },
+  "selected_identity": {
+    "count": 4242,
+    "created_utc": "2026-10-06T13:50:54.172078+00:00",
+    "encoder": "swin_t",
+    "feature_build_lock_identity": {
+      "bytes": 35989,
+      "sha256": "23cb6f70faf6885367d92d7b81ac37270552559c6e28fca62340a49bddce4102"
+    },
+    "feature_dimension": 768,
+    "fold1_correct": 2736,
+    "hook_definition": "features -> norm -> permute(BHWC to BCHW) -> avgpool -> flatten; exactly input to head Linear.",
+    "normalization": "per-row FP32 L2",
+    "old_fold1_correct": 1958,
+    "qualification_results_identity": {
+      "bytes": 1565,
+      "sha256": "6130b9b548ab8d07b09b4c3005810bd8fc0d253bbd5d4921e1593765693c4248"
+    },
+    "qualification_status": "FOOD101_ENCODER_UPGRADE_QUALIFIED",
+    "source": {
+      "bytes": 40364,
+      "copy_relative_path": "provenance/static_reference_source/torchvision_swin_transformer.py",
+      "exact_byte_copy": true,
+      "imported_or_executed_in_this_task": false,
+      "read_as_static_text_or_bytes_only": true,
+      "sha256": "be3b74f7974d7eebcc5f5f96106ef6b6a7bfc7102db012d0cadb6cf3c2f6bc1f"
+    },
+    "status": "SELECTED_ENCODER_IDENTITY_FROZEN",
+    "transform": {
+      "antialias": true,
+      "crop_size": [
+        224
+      ],
+      "enum": "Swin_T_Weights.IMAGENET1K_V1",
+      "implementation": "torchvision.transforms._presets.ImageClassification",
+      "interpolation": "BICUBIC",
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "resize_size": [
+        232
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "url": "https://download.pytorch.org/models/swin_t-704ceda3.pth"
+    },
+    "weight_identity": {
+      "bytes": 113445839,
+      "download_wall_seconds": 31.065100199999506,
+      "loaded_or_deserialized": false,
+      "published_prefix_match": true,
+      "published_sha256_prefix": "704ceda3",
+      "published_url": "https://download.pytorch.org/models/swin_t-704ceda3.pth",
+      "sha256": "704ceda373461b0a224fcdddd75cd2a5e9f8064512ed47adbddef7f343fd147b",
+      "source": "official_frozen_URL_download",
+      "weights_enum": "Swin_T_Weights.IMAGENET1K_V1"
+    },
+    "weights_enum": "Swin_T_Weights.IMAGENET1K_V1"
+  },
+  "semantic_status": "ACCEPTED_SWINT_QUALIFICATION_IDENTITY_PASS",
+  "status": "PASS",
+  "weight_identity": {
+    "bytes": 1739,
+    "sha256": "15194f23d0c4ea16d29a03e551221ee4bddd8b4f76cf063fda1b5d11e99157f2"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "status": "FROZEN_FOR_LATER_EXECUTION",
+  "created_utc": "2026-10-06T12:07:13.903946+00:00",
+  "execution_allowed_in_this_task": false,
+  "train_fold": 0,
+  "validation_fold": 1,
+  "classes": 101,
+  "folds_reference": "SIX_FOLD_LOCK.json",
+  "labels": "Clean manually reviewed Food101 official test-split class labels.",
+  "feature_definition_reference": "MODEL_CANDIDATE_LOCK.json",
+  "probe": {
+    "type": "identical clean ridge probe for old and all three candidates",
+    "ridge": 1.0,
+    "tuning_or_lambda_search": false,
+    "model_or_encoder_fine_tuning": false
+  },
+  "selection": {
+    "metric": "Exact fold1 accuracy; correct_count divided by the identical validation_count.",
+    "criterion": "Select the candidate with highest exact fold1 accuracy; selected candidate must have accuracy strictly greater than old ResNet18.",
+    "upgrade_comparison": ">",
+    "tolerance_or_rounding_in_selection": false,
+    "exact_candidate_tie_priority": [
+      "convnext_tiny",
+      "swin_t",
+      "vit_b_16"
+    ],
+    "no_candidate_beats_old_status": "FOOD101_NO_ENCODER_UPGRADE_QUALIFIED",
+    "no_candidate_beats_old_action": "STOP permanently; do not select an encoder using revision response.",
+    "revision_response_selection_allowed": false
+  },
+  "access_boundaries": {
+    "qualification_train": "fold0 only",
+    "qualification_validation": "fold1 only",
+    "revision_stream_folds_allowed_for_qualification_performance": [],
+    "common_final_evaluator_fold5_allowed_for_qualification": false,
+    "official_food101_train_split_allowed": false
+  },
+  "qualification_executed": false,
+  "old_fold1_accuracy": null,
+  "candidate_fold1_accuracies": null,
+  "selected_new_encoder": null,
+  "selected_candidate_qualified": null
+}

@@ -1,0 +1,51 @@
+{
+  "status": "FROZEN_BEFORE_FEATURE_OR_PERFORMANCE_EXECUTION",
+  "encoder_order": ["resnet18", "convnext_tiny", "swin_t", "vit_b_16"],
+  "candidate_tie_priority": ["convnext_tiny", "swin_t", "vit_b_16"],
+  "folds": [0, 1],
+  "count_per_fold": 4242,
+  "classes": 101,
+  "dimensions": {"resnet18": 512, "convnext_tiny": 768, "swin_t": 768, "vit_b_16": 768},
+  "runtime": {"python": "3.12.14", "torch": "2.14.1+cpu", "torchvision": "0.29.1+cpu"},
+  "settings": {"device": "cpu", "num_threads": 8, "num_interop_threads": 1, "batch_size": 32, "workers": 0, "shuffle": false, "precision": "FP32", "mode": "eval", "gradient": "torch.no_grad", "float32_matmul_precision": "highest", "numpy_BLAS_threads": 8},
+  "data_lock": {"file": "QUALIFICATION_DATA_LOCK.json", "status": "QUALIFICATION_DATA_LOCK_PASS", "fold_groups": "folds.fold0 and folds.fold1 preserve original SIX_FOLD_LOCK groups with images in exact canonical lock order", "class_mapping": "class_to_idx", "clean_label_field": "class_id", "source_image_field": "path"},
+  "weight_identity": {"file": "WEIGHT_IDENTITY.json", "status": "ALL_FOUR_WEIGHT_IDENTITIES_PASS", "records_field": "encoders", "record_fields": ["path", "bytes", "sha256", "published_url", "published_sha256_prefix", "published_prefix_match"]},
+  "cache": {
+    "file_pattern": "features/<encoder>/fold<fold>.npz",
+    "keys": ["features", "image_ids", "labels", "rows"],
+    "features_dtype": "<f4",
+    "image_ids_dtype": "<U64",
+    "labels_dtype": "<i8",
+    "rows_dtype": "<i8",
+    "normalization": "FP32 x / torch.linalg.vector_norm(x, ord=2, dim=1, keepdim=True); finite and strictly positive pre-norm required",
+    "row_L2_absolute_tolerance": 0.000002,
+    "semantic_array_record": {"shape": "list of integer dimensions", "dtype": "numpy dtype.str", "c_order_raw_sha256": "SHA256(np.ascontiguousarray(array).tobytes(order='C'))"},
+    "semantic_digest": "SHA256(UTF-8 json.dumps(arrays_record, ensure_ascii=False, sort_keys=True, separators=(',', ':'))) over sorted array keys"
+  },
+  "feature_lock": {
+    "per_cache_pattern": "FEATURE_CACHE_LOCKS/<encoder>_fold<fold>.json",
+    "per_cache_status": "FEATURE_CACHE_IDENTITY_PASS",
+    "per_cache_fields": ["encoder", "fold", "path", "bytes", "sha256", "arrays", "semantic_digest", "row_norm_min", "row_norm_max", "encoding_wall_seconds", "hook_definition", "hook_module", "transform", "access_log"],
+    "build_file": "FEATURE_BUILD_LOCK.json",
+    "build_status": "ALL_EIGHT_FEATURE_CACHES_FROZEN_BEFORE_PERFORMANCE",
+    "build_record_field": "caches",
+    "build_record_keys": "<encoder>_fold<fold>",
+    "build_precondition": "all eight complete, independently re-read keys/IDs/labels/rows/shape/dtype/finite/L2/file+semantic hashes before write; no accuracy before build lock"
+  },
+  "ridge_outputs": {
+    "per_encoder_directory": "metrics/<encoder>",
+    "numeric_file": "RIDGE_NUMERICS.npz",
+    "numeric_keys": ["W", "fold0_scores", "fold1_scores", "fold0_predictions", "fold1_predictions", "fold1_confusion"],
+    "metrics_file": "RIDGE_METRICS.json",
+    "formula": "FP64 augmented X; solve(X0.T @ X0 + eye(d+1), X0.T @ eye(101)[clean_labels0]); bias regularized identically",
+    "results_file": "QUALIFICATION_RESULTS.json",
+    "results_fields": ["status", "encoders", "best_candidate", "selected_encoder", "feature_build_lock_identity", "evaluation_started_utc", "evaluation_completed_utc"],
+    "encoder_result_fields": ["fold0_correct", "fold1_correct", "count", "fold0_accuracy", "fold1_accuracy"],
+    "selection": "compare integer correct counts at identical denominator 4242; first in frozen candidate priority wins exact tie; qualify only if best candidate count strictly greater than resnet18 count; selected_encoder null if not qualified",
+    "no_margin_or_extra_metric_required": true
+  },
+  "independent_audit": {"file": "audit/INDEPENDENT_QUALIFICATION_AUDIT.json", "pass_status": "INDEPENDENT_QUALIFICATION_AUDIT_PASS", "fields": ["status", "checks", "check_count", "passed_check_count", "failure", "discrepancies", "reconstructed_accuracies", "selected_encoder", "qualification_status"], "must_not_import_candidate_ridge_or_encoder_helper": true},
+  "source_locks": ["EXECUTION_SOURCE_LOCK.json", "AUDIT_SOURCE_LOCK.json"],
+  "forbidden": {"folds_2_3_4_5_image_decodes_or_performance": true, "official_train": true, "Procrustes": true, "current_core": true, "R1_R2_results": true, "tuning": true, "automatic_confirmation": true},
+  "stop_after_qualification_package": true
+}

@@ -1,0 +1,75 @@
+{
+  "access_log": {
+    "bytes": 1494528,
+    "encoder": "swin_t",
+    "fold": 1,
+    "image_count": 4242,
+    "sha256": "2699b669f374b15eeb01afc804d1ba86443660f73f4dacaacc82809ed1171077"
+  },
+  "arrays": {
+    "features": {
+      "c_order_raw_sha256": "02ea2c0b5dbc4c53981164b892f108750611c5ac35c25ccb1a98d785217d2693",
+      "dtype": "<f4",
+      "shape": [
+        4242,
+        768
+      ]
+    },
+    "image_ids": {
+      "c_order_raw_sha256": "f06cac5700703be72e20d9b1031363b11c3420cdbcb9c2984edb556fbb9dff19",
+      "dtype": "<U64",
+      "shape": [
+        4242
+      ]
+    },
+    "labels": {
+      "c_order_raw_sha256": "3aeab5dc35239b3414241887fd9657cafb3f994bacb4fa0fabfcf37671f4b252",
+      "dtype": "<i8",
+      "shape": [
+        4242
+      ]
+    },
+    "rows": {
+      "c_order_raw_sha256": "249ee8fe599ccae69e7845bd10a336c37c773ee3fa1714099e5f9d990a4cedb4",
+      "dtype": "<i8",
+      "shape": [
+        4242
+      ]
+    }
+  },
+  "bytes": 14186252,
+  "created_utc": "2026-10-06T13:38:17.170657+00:00",
+  "encoder": "swin_t",
+  "encoding_wall_seconds": 137.4862424999992,
+  "fold": 1,
+  "hook_definition": "features -> norm -> permute(BHWC to BCHW) -> avgpool -> flatten; exactly input to head Linear.",
+  "hook_module": "head",
+  "row_norm_max": 1.000000151889962,
+  "row_norm_min": 0.999999835856562,
+  "semantic_digest": "897ff4e719a867a776fef2691d5794b59998caad3660cfc91a4626b6abee0c79",
+  "sha256": "c15df0c544869f107ec5e6f0d8fc608718c7b4eb74b46d50132f3aaf917ffda9",
+  "status": "FEATURE_CACHE_IDENTITY_PASS",
+  "transform": {
+    "antialias": true,
+    "crop_size": [
+      224
+    ],
+    "enum": "Swin_T_Weights.IMAGENET1K_V1",
+    "implementation": "torchvision.transforms._presets.ImageClassification",
+    "interpolation": "BICUBIC",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "resize_size": [
+      232
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "url": "https://download.pytorch.org/models/swin_t-704ceda3.pth"
+  }
+}

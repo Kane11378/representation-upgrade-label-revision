@@ -1,0 +1,9 @@
+{
+  "status": "FOOD101_ENCODER_UPGRADE_QUALIFIED",
+  "selected_encoder": "swin_t",
+  "independent_audit_status": "INDEPENDENT_QUALIFICATION_AUDIT_PASS",
+  "independent_check_count": 24,
+  "completed_utc": "2026-10-06T13:56:16.156566+00:00",
+  "stop_after_package": true,
+  "Procrustes_or_current_core_or_revision_executed": false
+}

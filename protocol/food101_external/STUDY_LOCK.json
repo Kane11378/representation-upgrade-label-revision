@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "study": "Food-101 cross-domain and cross-encoder confirmation",
+  "provenance": {
+    "protocol_review": "results/food101_cross_domain_protocol_freeze_01/REVIEW.md",
+    "qualification_review": "results/food101_encoder_qualification_01/REVIEW.md",
+    "confirmation_review": "results/food101_cross_domain_revision_confirmation_01/REVIEW.md",
+    "protocol_delivery_sha256": "5730eaf2d5c9a69777b7c8f5b6000b5af1360abfad97a81abf45958d3bc20a3d",
+    "qualification_delivery_sha256": "5fd3e8a50f650b72282273de857266627effaeb2aa688e91e45b13a8b64ed991",
+    "confirmation_delivery_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+    "note": "This public JSON is a reviewer-facing summary reconstructed only from accepted review records. It is not the row-level protocol lock. Exact fold IDs, corruption manifests and request locks must be imported from the frozen delivery before public v1.0."
+  },
+  "clean_source_pool": {
+    "images": 25250,
+    "classes": 101,
+    "manually_reviewed": true
+  },
+  "folds": {
+    "fold0_qualification_train": 4242,
+    "fold1_qualification_val": 4242,
+    "fold2_stream_A_source": 4242,
+    "fold3_stream_B_source": 4242,
+    "fold4_stream_C_source": 4141,
+    "fold5_common_evaluator": 4141,
+    "pairwise_image_disjoint": true
+  },
+  "encoder_qualification": {
+    "old": "ResNet18 IMAGENET1K_V1",
+    "selected_new": "Swin-T IMAGENET1K_V1",
+    "fold1_old_accuracy_pct": 46.1575,
+    "fold1_selected_new_accuracy_pct": 64.4979,
+    "selection_accessed_folds_2_3_4_5_performance": false
+  },
+  "streams": {
+    "A": {
+      "history": 3434,
+      "arrival_E": 808,
+      "fit": 512,
+      "pilot": 512,
+      "history_corruptions": 1313,
+      "arrival_corruptions": 303,
+      "R1": 606,
+      "R2": 1010
+    },
+    "B": {
+      "history": 3434,
+      "arrival_E": 808,
+      "fit": 512,
+      "pilot": 512,
+      "history_corruptions": 1313,
+      "arrival_corruptions": 303,
+      "R1": 606,
+      "R2": 1010
+    },
+    "C": {
+      "history": 3333,
+      "arrival_E": 808,
+      "fit": 512,
+      "pilot": 512,
+      "history_corruptions": 1313,
+      "arrival_corruptions": 303,
+      "R1": 606,
+      "R2": 1010
+    }
+  },
+  "common_evaluator": {
+    "fold": 5,
+    "images": 4141,
+    "classes": 101,
+    "candidate_evidence_or_requests": false
+  },
+  "frontend": {
+    "name": "rectangular similarity Procrustes + pilot mean residual",
+    "old_dim": 512,
+    "new_dim": 768,
+    "fit_pairs": 512,
+    "pilot_pairs": 512,
+    "variant_search": false
+  },
+  "backend": {
+    "methods_primary": ["mean", "paired025"],
+    "alpha": 0.25,
+    "ridge": 1.0,
+    "shrink": 0.1,
+    "current_core_sha256": "0b28ae97c4fcd65eb901938e06a8642a899e5c32208b239da7b4ac64101d6bd7",
+    "controls": ["sample_current", "full_target_ridge"]
+  },
+  "primary": {
+    "aggregation": "equal-weight mean over A/B/C, separately for R1 and R2",
+    "R1": "paired average response_rel < mean average response_rel",
+    "R2": "paired average response_rel < mean average response_rel",
+    "all_six_directions_reported": true,
+    "iid_p_values_from_six_cells": false
+  }
+}

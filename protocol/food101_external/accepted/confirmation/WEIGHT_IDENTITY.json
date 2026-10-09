@@ -1,0 +1,35 @@
+{
+  "accepted_qualification_weight_lock_identity": {
+    "bytes": 2784,
+    "sha256": "32ab04606d016ba2c5df706af7f8b84a3a0360d9328af648fa02168b9906cd4a"
+  },
+  "actual_payloads_rehashed": true,
+  "created_utc": "2026-10-06T14:30:29.757757+00:00",
+  "encoders": {
+    "resnet18": {
+      "bytes": 46830571,
+      "download_wall_seconds": 0.0,
+      "loaded_or_deserialized": false,
+      "published_prefix_match": true,
+      "published_sha256_prefix": "f37072fd",
+      "published_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "source": "existing_exact_official_payload_read_only",
+      "weights_enum": "ResNet18_Weights.IMAGENET1K_V1"
+    },
+    "swin_t": {
+      "bytes": 113445839,
+      "download_wall_seconds": 31.065100199999506,
+      "loaded_or_deserialized": false,
+      "published_prefix_match": true,
+      "published_sha256_prefix": "704ceda3",
+      "published_url": "https://download.pytorch.org/models/swin_t-704ceda3.pth",
+      "sha256": "704ceda373461b0a224fcdddd75cd2a5e9f8064512ed47adbddef7f343fd147b",
+      "source": "official_frozen_URL_download",
+      "weights_enum": "Swin_T_Weights.IMAGENET1K_V1"
+    }
+  },
+  "model_objects_constructed": 0,
+  "status": "ALL_TWO_WEIGHT_IDENTITIES_PASS",
+  "weights_loaded_or_deserialized": false
+}

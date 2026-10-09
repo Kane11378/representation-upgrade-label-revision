@@ -1,0 +1,135 @@
+{
+  "status": "FROZEN_BEFORE_DEPLOYMENT_FEATURE_OR_CONFIRMATION_EXECUTION",
+  "created_utc": "2026-10-06T15:27:02.666188+00:00",
+  "engineering_repair_before_any_candidate_performance": true,
+  "original_source_locks_remain_required_and_unchanged": true,
+  "eight_encoded_caches_retained_without_reencoding": true,
+  "frozen_scientific_choices_unchanged": true,
+  "read_only_24_state_semantic_identity_required_before_evaluation": true,
+  "files": {
+    "code/confirmation_bridge_v2.py": {
+      "bytes": 43268,
+      "sha256": "f93923b57ea0bde5c93f9e04ce5b52a808a6d9eae4212f2cb2741719ea9382b8"
+    },
+    "code/finish_confirmation_v2.py": {
+      "bytes": 12777,
+      "sha256": "cb36c5710e906b2bbfd38a45b12d0c1551ab4476150eb8f4800999ad4ba9a056"
+    },
+    "code/freeze_confirmation_sources_v2.py": {
+      "bytes": 4729,
+      "sha256": "1cdc76ead3506daf47431071cacdd25409438e1f55b0a84388fe74108768c2b2"
+    },
+    "code/derive_guard_repair_v2.py": {
+      "bytes": 12836,
+      "sha256": "92e03f277c8fc5a4295be916d75f53e8ba73cde23a05f442e3942c0fa29ea614"
+    },
+    "code/check_build_repair_semantics.py": {
+      "bytes": 6836,
+      "sha256": "61e06c6ffc8972f68d0471cfe672d20619b32e780a89147f1f87cb3a341175c7"
+    },
+    "code/inventory_failed_build.py": {
+      "bytes": 5801,
+      "sha256": "5e5085adbcf978a5a2c4e498f54905f94d41600648d532b4ec9b92eb7af534c9"
+    },
+    "code/diagnose_build_guard_imports.py": {
+      "bytes": 2240,
+      "sha256": "485a601095a71f10db10ffd23fce29a01febe1a15a5444c7486b7938246eded2"
+    },
+    "EXECUTION_SOURCE_LOCK.json": {
+      "bytes": 17485,
+      "sha256": "95493178cc8c90752899aefdcba1de8867886b99948628b6a735596bd9048b35"
+    },
+    "AUDIT_SOURCE_LOCK.json": {
+      "bytes": 711,
+      "sha256": "82138786fec1bfaecfcb9922cb4262503b7719bf53ca08db088c99ff90e69aad"
+    },
+    "ENCODER_FEATURE_LOCK.json": {
+      "bytes": 37237,
+      "sha256": "10a0ab6e2d15b7d2f63efb5630a123d04a6b38491a9634c856bfab96f8f9c016"
+    },
+    "RUNTIME_GATE.json": {
+      "bytes": 18649,
+      "sha256": "e695efeb88641ad147470a2ac9cded3b55ff53bdc43a18f8b72d3db4e9157fca"
+    },
+    "audit/BUILD_GUARD_ENGINEERING_REPAIR.json": {
+      "bytes": 5249,
+      "sha256": "aa3c86a6eb15a1f78487cec2fa0c94494ccdad1ae9263580e4a08d35eb4e7576"
+    },
+    "audit/BUILD_GUARD_IMPORT_DIAGNOSTIC.json": {
+      "bytes": 47945,
+      "sha256": "364a8cff13f73b979546b15ba3607a60e33b7909d68120c928cc1e4fa894497d"
+    },
+    "audit/BUILD_GUARD_DIAGNOSTIC_SOURCE_LOCK.json": {
+      "bytes": 288,
+      "sha256": "be74ed54cdb97eaf974eed15afcffe86e6ec01d5eea1d2bf351e720470435df0"
+    },
+    "audit/FIRST_BUILD_ATTEMPT_INVENTORY.json": {
+      "bytes": 107614,
+      "sha256": "1ff6923e4461cf7a3f2872c78be409cd765b3edf476d9334359ae1d6621d79ed"
+    },
+    "audit/FIRST_BUILD_INVENTORY_SOURCE_LOCK.json": {
+      "bytes": 406,
+      "sha256": "ce10fb7040079ac216abd911662d6301106ef49f12471213d16a9ae6b02c9f85"
+    },
+    "audit/BUILD_ATTEMPT_ARCHIVAL_RECEIPT.json": {
+      "bytes": 17242,
+      "sha256": "d525a0aae7b03716214316b281e3b27bb7359bcc83ea4ca33dfee834c6ac6f3d"
+    },
+    "audit/BUILD_REPAIR_COMPARISON_SOURCE_LOCK.json": {
+      "bytes": 718,
+      "sha256": "1113f4823298acc19c1d259ef7ef6c8e2a13811eb53dcdf210936344486bb1de"
+    },
+    "diff/BRIDGE_GUARD_REPAIR_V2.diff": {
+      "bytes": 7320,
+      "sha256": "fdb771c205557561986508d2fd077010d9e2a251b6f3fea5018225c06efb28e0"
+    },
+    "diff/FINISH_GUARD_REPAIR_V2.diff": {
+      "bytes": 4788,
+      "sha256": "306bbec12d27282dacf61b825d5a67ebcba626ca8ccc1dbad2707db6a01142cc"
+    },
+    "logs/BUILD_CONSOLE.txt": {
+      "bytes": 1164,
+      "sha256": "a1ed3759e37a8631b0d6447394ae9708faf5388b9d766424e35b19ff5eaac480"
+    },
+    "attempts/build_guard_metadata_failure_01/ACCESS_RECEIPTS.json": {
+      "bytes": 2263370,
+      "sha256": "5a69692eeda1ccd4bb62f6d36ae2ef94af15e05efb6663d3b102b7e9715fd86b"
+    },
+    "attempts/build_guard_metadata_failure_01/BUILD_COST_ACCOUNTING.json": {
+      "bytes": 8196,
+      "sha256": "b10a8a8f066550133573019473eb0a668dd9726b30bc3b8daf93b40824f417bc"
+    },
+    "attempts/build_guard_metadata_failure_01/BUILD_FAILURE.json": {
+      "bytes": 690,
+      "sha256": "890d804dbd58b9c18c9942698cacd8848131d02f07e30ddd18f0d801a7ef4e62"
+    },
+    "attempts/build_guard_metadata_failure_01/FRONTEND_LOCKS/A.json": {
+      "bytes": 50964,
+      "sha256": "493a1fb7c3011afddfc2010cd83d2f730373704024300ed06d58d3939b3359e2"
+    },
+    "attempts/build_guard_metadata_failure_01/FRONTEND_LOCKS/B.json": {
+      "bytes": 50906,
+      "sha256": "a2b4dbcc359d3f7c78ef416e9888dc0362a316c64414f6a8374a43f675717859"
+    },
+    "attempts/build_guard_metadata_failure_01/FRONTEND_LOCKS/C.json": {
+      "bytes": 51016,
+      "sha256": "c4d7ca679a2c31f2f37cbddc6101a1f67b34a30e188be5a89f35223c13b1926c"
+    },
+    "attempts/build_guard_metadata_failure_01/REQUEST_MANIFEST_ALL.csv": {
+      "bytes": 254032,
+      "sha256": "d60a54d2e299bf6b0368845979db9dcddbf6860af530865861aa09c5414424cb"
+    },
+    "attempts/build_guard_metadata_failure_01/states/A/STATE_TIMELINE.json": {
+      "bytes": 2331520,
+      "sha256": "8b087d282fb97272d709bb8b23f8999e17e1e89b8866cbe53470d18149096966"
+    },
+    "attempts/build_guard_metadata_failure_01/states/B/STATE_TIMELINE.json": {
+      "bytes": 2331689,
+      "sha256": "a69df3890e6d8507fc60717bbdd8920f3c12f32237fc22b8822b6adf68750f27"
+    },
+    "attempts/build_guard_metadata_failure_01/states/C/STATE_TIMELINE.json": {
+      "bytes": 2270943,
+      "sha256": "b8c5c63ca4b799a4b9de0922bd81c194e51fc2b15ba08b5f104cf1477c9885e9"
+    }
+  }
+}

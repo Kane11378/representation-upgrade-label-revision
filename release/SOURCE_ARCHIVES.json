@@ -1,0 +1,169 @@
+{
+  "schema": "accepted-source-archives-reader-v2",
+  "metadata_view": {
+    "kind": "reader-oriented-source-ledger",
+    "historical_release": "v1.0.0",
+    "historical_path": "release/SOURCE_ARCHIVES.json",
+    "historical_file_sha256": "23ea8b96cd80333dae419b5efd48fa6af4e995e35d010fdab36c9d023efe150a",
+    "description": "Acceptance-record locators are omitted from this reader-oriented view; frozen source identities and verification receipts are unchanged."
+  },
+  "all_preimport_checks": "PASS",
+  "accepted_current_core_sha256": "0b28ae97c4fcd65eb901938e06a8642a899e5c32208b239da7b4ac64101d6bd7",
+  "archives": [
+    {
+      "id": "legacy_alignment",
+      "requested_filename": "011_alignment_revision_bridge_20261005(1).zip",
+      "observed_filename": "011_alignment_revision_bridge_20261005.zip",
+      "filename_verification": "historically_accepted_basename_alias",
+      "filename_note": "Requested download suffix absent; original historical basename verified by accepted byte identity",
+      "bytes": 514936,
+      "sha256": "0d81ac3da03cfa5b4ddc5d21a518baf56b1fe02e1201d3dedb43900b1cda0539",
+      "members": 95,
+      "zip_crc": "PASS",
+      "manifest_member": "alignment_revision_bridge_20261005/DELIVERY_MANIFEST.json",
+      "manifest_sha256": "272a43f728ada95279150a52e82da4511af2cd4a9d3481c884171396d5004999",
+      "manifest_bytes": 15371,
+      "manifest_payloads_checked": 94,
+      "manifest_identity": {},
+      "manifest_exact_coverage": "PASS",
+      "manifest_bytes_sha256": "PASS"
+    },
+    {
+      "id": "cifar_protocol",
+      "requested_filename": "011_fastfill_final_unseen_protocol_freeze_01_20261006.zip",
+      "observed_filename": "011_fastfill_final_unseen_protocol_freeze_01_20261006.zip",
+      "filename_verification": "exact",
+      "filename_note": null,
+      "bytes": 1490420,
+      "sha256": "744ebb41dccaa2a99e16c878b01c2c1dd72b4a1c2850f906a294c50f7d77355c",
+      "members": 46,
+      "zip_crc": "PASS",
+      "manifest_member": "MANIFEST.json",
+      "manifest_sha256": "982ff098cb6faa5f01aef8ef49a44c6a59549cbb03890f01ed7915b726a23ff7",
+      "manifest_bytes": 7226,
+      "manifest_payloads_checked": 45,
+      "manifest_identity": {
+        "task": "FASTFILL_FINAL_UNSEEN_PROTOCOL_FREEZE_01",
+        "schema": "relative-path-bytes-sha256-v1",
+        "scope": "protocol-only text/JSON/source/logs; no image, feature, model or performance payloads",
+        "self_excluded": "MANIFEST.json; ZIP identity is external ZIP_RECEIPT.json"
+      },
+      "manifest_exact_coverage": "PASS",
+      "manifest_bytes_sha256": "PASS"
+    },
+    {
+      "id": "cifar_confirmation",
+      "requested_filename": "011_fastfill_final_unseen_confirmation_01_20261006.zip",
+      "observed_filename": "011_fastfill_final_unseen_confirmation_01_20261006.zip",
+      "filename_verification": "exact",
+      "filename_note": null,
+      "bytes": 1563622,
+      "sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "members": 63,
+      "zip_crc": "PASS",
+      "manifest_member": "MANIFEST.json",
+      "manifest_sha256": "8dc2df2da13d9b2e0a8dc3741ab3912bc5b86f25fbddfb01b8581b4a604aaacd",
+      "manifest_bytes": 9348,
+      "manifest_payloads_checked": 62,
+      "manifest_identity": {
+        "task": "FASTFILL_FINAL_UNSEEN_CONFIRMATION_01",
+        "self_excluded": "MANIFEST.json; external ZIP_RECEIPT.json records ZIP identity"
+      },
+      "manifest_exact_coverage": "PASS",
+      "manifest_bytes_sha256": "PASS"
+    },
+    {
+      "id": "food_protocol",
+      "requested_filename": "011_food101_cross_domain_protocol_freeze_01_20261006.zip",
+      "observed_filename": "011_food101_cross_domain_protocol_freeze_01_20261006.zip",
+      "filename_verification": "exact",
+      "filename_note": null,
+      "bytes": 10652341,
+      "sha256": "5730eaf2d5c9a69777b7c8f5b6000b5af1360abfad97a81abf45958d3bc20a3d",
+      "members": 81,
+      "zip_crc": "PASS",
+      "manifest_member": "MANIFEST.json",
+      "manifest_sha256": "02f82822baad5e6acd86caa435cf8efc6d9d29770dff29dc12091b2ab1e06e9a",
+      "manifest_bytes": 12958,
+      "manifest_payloads_checked": 80,
+      "manifest_identity": {
+        "status": "FROZEN",
+        "created_utc": "2026-10-06T12:46:29.843076+00:00",
+        "self_excluded": true,
+        "archive_and_image_payloads_external": true,
+        "models_features_and_performance_absent": true
+      },
+      "manifest_exact_coverage": "PASS",
+      "manifest_bytes_sha256": "PASS"
+    },
+    {
+      "id": "food_qualification",
+      "requested_filename": "011_food101_encoder_qualification_01_20261006.zip",
+      "observed_filename": "011_food101_encoder_qualification_01_20261006.zip",
+      "filename_verification": "exact",
+      "filename_note": null,
+      "bytes": 8394333,
+      "sha256": "5fd3e8a50f650b72282273de857266627effaeb2aa688e91e45b13a8b64ed991",
+      "members": 106,
+      "zip_crc": "PASS",
+      "manifest_member": "MANIFEST.json",
+      "manifest_sha256": "f05a64090823c9858777b2b02c36abe263363f6692dd03deb75bf960e9c3a07d",
+      "manifest_bytes": 16673,
+      "manifest_payloads_checked": 105,
+      "manifest_identity": {
+        "status": "FROZEN",
+        "created_utc": "2026-10-06T13:56:16.172090+00:00",
+        "self_excluded": true,
+        "model_feature_and_numeric_payloads_external": true
+      },
+      "manifest_exact_coverage": "PASS",
+      "manifest_bytes_sha256": "PASS"
+    },
+    {
+      "id": "food_confirmation",
+      "requested_filename": "011_food101_cross_domain_revision_confirmation_01_20261006.zip",
+      "observed_filename": "011_food101_cross_domain_revision_confirmation_01_20261006.zip",
+      "filename_verification": "exact",
+      "filename_note": null,
+      "bytes": 15950893,
+      "sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "members": 191,
+      "zip_crc": "PASS",
+      "manifest_member": "MANIFEST.json",
+      "manifest_sha256": "219b3ee070f374dccb8b3d81ed4f49b765903d61ea61cf267b217c3ddc3845df",
+      "manifest_bytes": 31623,
+      "manifest_payloads_checked": 190,
+      "manifest_identity": {
+        "status": "FROZEN",
+        "self_excluded": true,
+        "created_utc": "2026-10-06T15:33:45.844579+00:00",
+        "large_arrays_and_weights_external": true
+      },
+      "manifest_exact_coverage": "PASS",
+      "manifest_bytes_sha256": "PASS"
+    }
+  ],
+  "copied_source_identities": [
+    {
+      "archive_id": "food_qualification",
+      "source_archive_id": "food_protocol",
+      "member_prefix": "provenance/protocol_freeze/",
+      "members_compared": 7,
+      "exact_identity": "PASS"
+    },
+    {
+      "archive_id": "food_confirmation",
+      "source_archive_id": "food_protocol",
+      "member_prefix": "provenance/protocol_freeze/",
+      "members_compared": 41,
+      "exact_identity": "PASS"
+    },
+    {
+      "archive_id": "food_confirmation",
+      "source_archive_id": "food_qualification",
+      "member_prefix": "provenance/encoder_qualification/",
+      "members_compared": 9,
+      "exact_identity": "PASS"
+    }
+  ]
+}

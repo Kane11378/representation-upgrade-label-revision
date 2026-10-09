@@ -1,0 +1,94 @@
+{
+  "R1_R2_result_access_count": 0,
+  "access_logs": {
+    "convnext_tiny_fold0": {
+      "bytes": 1494454,
+      "encoder": "convnext_tiny",
+      "fold": 0,
+      "image_count": 4242,
+      "sha256": "a9e531e293af0fc08ec16c0f3876aed0a90e086c467814efa955f9111fb88f3d"
+    },
+    "convnext_tiny_fold1": {
+      "bytes": 1494535,
+      "encoder": "convnext_tiny",
+      "fold": 1,
+      "image_count": 4242,
+      "sha256": "90546977e4f4e3f3aa699686e78d4d29e308f6453d8df21e9fe13710132fffaa"
+    },
+    "resnet18_fold0": {
+      "bytes": 1494449,
+      "encoder": "resnet18",
+      "fold": 0,
+      "image_count": 4242,
+      "sha256": "69bd498b9e3cc55c9149b7b48a01e813ca6fe48b1619968c1ea4a9ba3bac4cbf"
+    },
+    "resnet18_fold1": {
+      "bytes": 1494530,
+      "encoder": "resnet18",
+      "fold": 1,
+      "image_count": 4242,
+      "sha256": "a1f51df197c5dbdb700ba6306e9760afe18160e536ab39176595f1ddc4ce9751"
+    },
+    "swin_t_fold0": {
+      "bytes": 1494447,
+      "encoder": "swin_t",
+      "fold": 0,
+      "image_count": 4242,
+      "sha256": "d6f95c5499090a859440c1158d7e559517ee53049c1cc542d9c63d51cbb08e64"
+    },
+    "swin_t_fold1": {
+      "bytes": 1494528,
+      "encoder": "swin_t",
+      "fold": 1,
+      "image_count": 4242,
+      "sha256": "2699b669f374b15eeb01afc804d1ba86443660f73f4dacaacc82809ed1171077"
+    },
+    "vit_b_16_fold0": {
+      "bytes": 1494449,
+      "encoder": "vit_b_16",
+      "fold": 0,
+      "image_count": 4242,
+      "sha256": "9b4176b5238a9927b2dfafcbca292770228352a9664e1721dafb53dfa1688076"
+    },
+    "vit_b_16_fold1": {
+      "bytes": 1494530,
+      "encoder": "vit_b_16",
+      "fold": 1,
+      "image_count": 4242,
+      "sha256": "5846fa892c2834059d467ac75eb1bc75d5f9fd9e3e0f10d6db8a52389b638259"
+    }
+  },
+  "allowed_image_folds": [
+    0,
+    1
+  ],
+  "auto_confirmation": false,
+  "build_access_summary_identity": {
+    "bytes": 9894321,
+    "sha256": "59a66db67f9e9974c474e18b5aad8fd28feb3e9218fd1374bb4e72361d032c73"
+  },
+  "created_utc": "2026-10-06T13:50:54.185098+00:00",
+  "current_core_execution_count": 0,
+  "encoder_count": 4,
+  "evaluation_forbidden_attempts": [],
+  "evaluation_image_opens": 0,
+  "evaluation_preconditions_identity": {
+    "bytes": 866,
+    "sha256": "57a71236185dbcb7eb66b9bc9a530a3f15070f053c072f88c3071cd84b776baf"
+  },
+  "forbidden_fold_image_decodes": {
+    "fold2": 0,
+    "fold3": 0,
+    "fold4": 0,
+    "fold5": 0
+  },
+  "official_train_image_decodes": 0,
+  "per_encoder_fold_decode_count": 4242,
+  "procrustes_fit_count": 0,
+  "revision_result_access_count": 0,
+  "selection_basis": "clean fold1 exact accuracy after all-eight hash lock",
+  "status": "NO_FORBIDDEN_QUALIFICATION_ACCESS_PASS",
+  "stop_after_qualification_package": true,
+  "total_image_decodes": 33936,
+  "tuning": false
+}

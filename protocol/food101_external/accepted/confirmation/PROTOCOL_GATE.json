@@ -1,0 +1,116 @@
+{
+  "Food101_feature_or_performance_computations": 0,
+  "created_utc": "2026-10-06T14:30:29.760757+00:00",
+  "dataset_identity": {
+    "bytes": 11204181,
+    "sha256": "9e5642c76d023f975e83e6ef2782f0f47707a4e0be31d9c1e7f2d35a9f3b1e73"
+  },
+  "deployment_data_lock_identity": {
+    "bytes": 8363013,
+    "sha256": "0190fe769f6978727b2f0838155e5e4b1b2dbcd0769ccb9964acb46f30f145ae"
+  },
+  "fold_counts": {
+    "fold2": {
+      "classes": 101,
+      "images": 4242,
+      "per_class": 42
+    },
+    "fold3": {
+      "classes": 101,
+      "images": 4242,
+      "per_class": 42
+    },
+    "fold4": {
+      "classes": 101,
+      "images": 4141,
+      "per_class": 41
+    },
+    "fold5": {
+      "classes": 101,
+      "images": 4141,
+      "per_class": 41
+    }
+  },
+  "image_decodes": 0,
+  "image_payload_accesses": 0,
+  "method_lock_identity": {
+    "bytes": 4299,
+    "sha256": "cf4adb2340bc94f43bf4d02aed72abab12ef146dec057f372c544bb4fc5e5e72"
+  },
+  "performance_computations": 0,
+  "pinned_main": {
+    "branch": "main",
+    "commit": "ad6e32115f7bfbeef48ff46a4d2113b44793f987",
+    "commit_utc": "2026-10-06T14:02:50Z",
+    "local_AGENTS": [],
+    "repo_AGENTS": [],
+    "repository": "Kane11378/011",
+    "scope": "Authorized one-shot Food101 external revision confirmation only",
+    "task_blob": "7cede268bde5f7ba893b173064e7e608f2db2663",
+    "task_bytes": 11385,
+    "task_path": "tasks/FOOD101_CROSS_DOMAIN_REVISION_CONFIRMATION_01.md",
+    "tree": "f8b23369948c601a0737cb72490fffd3bb3c38e1",
+    "tree_truncated": false
+  },
+  "protocol_zip": {
+    "bytes": 10652341,
+    "complete_manifest_disk_and_zip_pass": true,
+    "crc_pass": true,
+    "manifest_identity": {
+      "bytes": 12958,
+      "sha256": "02f82822baad5e6acd86caa435cf8efc6d9d29770dff29dc12091b2ab1e06e9a"
+    },
+    "manifest_record_count": 80,
+    "members": 81,
+    "sha256": "5730eaf2d5c9a69777b7c8f5b6000b5af1360abfad97a81abf45958d3bc20a3d"
+  },
+  "resplit_reseed_tuning": false,
+  "semantic_status": "FROZEN_CONFIRMATION_PROTOCOL_IDENTITY_PASS",
+  "six_fold_identity": {
+    "bytes": 16040560,
+    "sha256": "787afbecd21cef95159f31fa67dede6fc850fd17eefee139183afd98b4307f6d"
+  },
+  "source_lock_identity": {
+    "bytes": 3672,
+    "sha256": "4dd5b48917e2d04e89fcae9fe2f5f731879ffeb1ebc4028882cb4851c901ae97"
+  },
+  "status": "PASS",
+  "stream_counts": {
+    "A": {
+      "E": 808,
+      "R1": 606,
+      "R2": 1010,
+      "corrupted_E": 303,
+      "corrupted_history": 1313,
+      "fit": 512,
+      "history": 3434,
+      "pilot": 512,
+      "source": 4242,
+      "source_fold": 2
+    },
+    "B": {
+      "E": 808,
+      "R1": 606,
+      "R2": 1010,
+      "corrupted_E": 303,
+      "corrupted_history": 1313,
+      "fit": 512,
+      "history": 3434,
+      "pilot": 512,
+      "source": 4242,
+      "source_fold": 3
+    },
+    "C": {
+      "E": 808,
+      "R1": 606,
+      "R2": 1010,
+      "corrupted_E": 303,
+      "corrupted_history": 1313,
+      "fit": 512,
+      "history": 3333,
+      "pilot": 512,
+      "source": 4141,
+      "source_fold": 4
+    }
+  }
+}

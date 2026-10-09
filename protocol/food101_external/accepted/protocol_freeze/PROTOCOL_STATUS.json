@@ -1,0 +1,11 @@
+{
+  "status": "FOOD101_CROSS_DOMAIN_PROTOCOL_FROZEN_AUDIT_PASS",
+  "created_utc": "2026-10-06T12:46:27.687240+00:00",
+  "independent_audit_status": "INDEPENDENT_PROTOCOL_AUDIT_PASS",
+  "independent_check_count": 240786,
+  "encoder_qualification_executed": false,
+  "selected_new_encoder": null,
+  "revision_executed": false,
+  "independent_of_closed_GTSRB_branch": true,
+  "stop_after_protocol_package": true
+}

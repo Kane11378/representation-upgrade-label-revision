@@ -1,0 +1,3 @@
+dataset,upgrade,frontend,event,mean_response_rel,paired_response_rel,response_reduction_pct,mean_action_rel,paired_action_rel,action_change_pct
+Food-101,ResNet18->Swin-T,rectangular similarity Procrustes + pilot residual,R1,0.641241362,0.551190613,14.0432,0.812870353,0.815600572,0.3359
+Food-101,ResNet18->Swin-T,rectangular similarity Procrustes + pilot residual,R2,0.342499711,0.298749447,12.7738,0.586264584,0.585488248,-0.1324

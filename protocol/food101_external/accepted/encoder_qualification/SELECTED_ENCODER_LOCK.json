@@ -1,0 +1,63 @@
+{
+  "count": 4242,
+  "created_utc": "2026-10-06T13:50:54.172078+00:00",
+  "encoder": "swin_t",
+  "feature_build_lock_identity": {
+    "bytes": 35989,
+    "sha256": "23cb6f70faf6885367d92d7b81ac37270552559c6e28fca62340a49bddce4102"
+  },
+  "feature_dimension": 768,
+  "fold1_correct": 2736,
+  "hook_definition": "features -> norm -> permute(BHWC to BCHW) -> avgpool -> flatten; exactly input to head Linear.",
+  "normalization": "per-row FP32 L2",
+  "old_fold1_correct": 1958,
+  "qualification_results_identity": {
+    "bytes": 1565,
+    "sha256": "6130b9b548ab8d07b09b4c3005810bd8fc0d253bbd5d4921e1593765693c4248"
+  },
+  "qualification_status": "FOOD101_ENCODER_UPGRADE_QUALIFIED",
+  "source": {
+    "bytes": 40364,
+    "copy_relative_path": "provenance/static_reference_source/torchvision_swin_transformer.py",
+    "exact_byte_copy": true,
+    "imported_or_executed_in_this_task": false,
+    "read_as_static_text_or_bytes_only": true,
+    "sha256": "be3b74f7974d7eebcc5f5f96106ef6b6a7bfc7102db012d0cadb6cf3c2f6bc1f"
+  },
+  "status": "SELECTED_ENCODER_IDENTITY_FROZEN",
+  "transform": {
+    "antialias": true,
+    "crop_size": [
+      224
+    ],
+    "enum": "Swin_T_Weights.IMAGENET1K_V1",
+    "implementation": "torchvision.transforms._presets.ImageClassification",
+    "interpolation": "BICUBIC",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "resize_size": [
+      232
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "url": "https://download.pytorch.org/models/swin_t-704ceda3.pth"
+  },
+  "weight_identity": {
+    "bytes": 113445839,
+    "download_wall_seconds": 31.065100199999506,
+    "loaded_or_deserialized": false,
+    "published_prefix_match": true,
+    "published_sha256_prefix": "704ceda3",
+    "published_url": "https://download.pytorch.org/models/swin_t-704ceda3.pth",
+    "sha256": "704ceda373461b0a224fcdddd75cd2a5e9f8064512ed47adbddef7f343fd147b",
+    "source": "official_frozen_URL_download",
+    "weights_enum": "Swin_T_Weights.IMAGENET1K_V1"
+  },
+  "weights_enum": "Swin_T_Weights.IMAGENET1K_V1"
+}

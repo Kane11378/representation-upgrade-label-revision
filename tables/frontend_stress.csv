@@ -1,0 +1,4 @@
+frontend,feature_rms,retrieval_top1_pct,map,pre_r1_accuracy_pct,r1_response_reduction_pct,r2_response_reduction_pct
+Affine,0.051740,64.00,0.3853,69.10,14.34,15.85
+Rectangular Procrustes,0.033933,72.47,0.4847,70.83,11.83,11.15
+Supervised normalized FastFill-style,0.027556,80.13,0.6160,73.63,5.74,5.06

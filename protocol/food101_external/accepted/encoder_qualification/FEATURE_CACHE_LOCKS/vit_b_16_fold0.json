@@ -1,0 +1,75 @@
+{
+  "access_log": {
+    "bytes": 1494449,
+    "encoder": "vit_b_16",
+    "fold": 0,
+    "image_count": 4242,
+    "sha256": "9b4176b5238a9927b2dfafcbca292770228352a9664e1721dafb53dfa1688076"
+  },
+  "arrays": {
+    "features": {
+      "c_order_raw_sha256": "f62e9b267aff573536af130e16b6bc4ef161616bc5da41840955828b126085e2",
+      "dtype": "<f4",
+      "shape": [
+        4242,
+        768
+      ]
+    },
+    "image_ids": {
+      "c_order_raw_sha256": "1068a3af14947e41e9ec9015ecb1a1a5f71f6e059779bf4f00373b54321ff833",
+      "dtype": "<U64",
+      "shape": [
+        4242
+      ]
+    },
+    "labels": {
+      "c_order_raw_sha256": "3aeab5dc35239b3414241887fd9657cafb3f994bacb4fa0fabfcf37671f4b252",
+      "dtype": "<i8",
+      "shape": [
+        4242
+      ]
+    },
+    "rows": {
+      "c_order_raw_sha256": "0ced7d50f59b68460ee7db7c484be8e36c54ebf781fb1375b0f1091f89a48935",
+      "dtype": "<i8",
+      "shape": [
+        4242
+      ]
+    }
+  },
+  "bytes": 14186252,
+  "created_utc": "2026-10-06T13:43:32.036103+00:00",
+  "encoder": "vit_b_16",
+  "encoding_wall_seconds": 308.8110462000004,
+  "fold": 0,
+  "hook_definition": "_process_input -> prepend class_token -> encoder (including encoder.ln) -> CLS token x[:,0]; exactly input to heads.head Linear. representation_size=None; no token averaging.",
+  "hook_module": "heads.head",
+  "row_norm_max": 1.0000001478083604,
+  "row_norm_min": 0.9999998405178802,
+  "semantic_digest": "b5d9c49179c877a1dc9ad11a0cf1c5f49e74c9f32c6f0ee2dfe567d98adfaf5b",
+  "sha256": "81c94166fb67044718162cfa504189a3561cb99ebf9d009fa20b71803ca4fb36",
+  "status": "FEATURE_CACHE_IDENTITY_PASS",
+  "transform": {
+    "antialias": true,
+    "crop_size": [
+      224
+    ],
+    "enum": "ViT_B_16_Weights.IMAGENET1K_V1",
+    "implementation": "torchvision.transforms._presets.ImageClassification",
+    "interpolation": "BILINEAR",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "resize_size": [
+      256
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "url": "https://download.pytorch.org/models/vit_b_16-c867db91.pth"
+  }
+}

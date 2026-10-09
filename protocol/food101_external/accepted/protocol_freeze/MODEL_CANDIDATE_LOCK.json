@@ -1,0 +1,281 @@
+{
+  "status": "FROZEN_FOR_LATER_EXECUTION",
+  "created_utc": "2026-10-06T12:07:13.903946+00:00",
+  "study": "FOOD101_EXT_SCOPE_20261006_V1",
+  "independent_of_closed_GTSRB_branch": true,
+  "execution_allowed_in_this_task": false,
+  "runtime_source_versions": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "torch_git_version": "5c4886908584029761b579af026dcfb627c84070",
+    "torchvision": "0.29.1+cpu",
+    "torchvision_git_version": "1f1a920d685d46dfbe187934b785b7ecb7a182f2",
+    "identity_method": "Read version.py literals using ast; torch and torchvision not imported.",
+    "torch_version_source": {
+      "copy_relative_path": "provenance/static_reference_source/torch_version.py",
+      "bytes": 323,
+      "sha256": "0d5cd125dd13835680b112f6e51c7c3187f8a2417de055ae576077a671d3d4b0",
+      "exact_byte_copy": true,
+      "read_as_static_text_or_bytes_only": true,
+      "imported_or_executed_in_this_task": false
+    },
+    "torchvision_version_source": {
+      "copy_relative_path": "provenance/static_reference_source/torchvision_version.py",
+      "bytes": 206,
+      "sha256": "bda569d9ce78fffbe550d66c5f2d40a2884b5302ef89bc41dc6a3e7d64a02b40",
+      "exact_byte_copy": true,
+      "read_as_static_text_or_bytes_only": true,
+      "imported_or_executed_in_this_task": false
+    }
+  },
+  "old_encoder": {
+    "builder": "torchvision.models.resnet18",
+    "weights_enum": "ResNet18_Weights.IMAGENET1K_V1",
+    "weight_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "url_sha256_prefix": "f37072fd",
+    "actual_weight_sha256": null,
+    "actual_weight_bytes_verified_in_this_task": false,
+    "weights_downloaded_or_loaded_in_this_task": false,
+    "source": {
+      "copy_relative_path": "provenance/static_reference_source/torchvision_resnet.py",
+      "bytes": 39905,
+      "sha256": "7c329198f414e411dd64d67784c1f7efbb1e85bdb8e160b8c5d5c5619f9ab119",
+      "exact_byte_copy": true,
+      "read_as_static_text_or_bytes_only": true,
+      "imported_or_executed_in_this_task": false
+    },
+    "feature_hook": "Output of avgpool followed by flatten(start_dim=1), exactly the input to fc.",
+    "final_classifier_linear_layer": "fc",
+    "expected_feature_dimension": 512,
+    "normalization_modules_before_hook": "Preserve the complete pretrained backbone, including all BatchNorm layers in eval mode.",
+    "must_preserve_normalization_before_hook": true,
+    "transforms": {
+      "implementation": "torchvision.transforms._presets.ImageClassification",
+      "crop_size": 224,
+      "resize_size": 256,
+      "resize_semantics": "Resize shorter edge, preserve aspect ratio; then center crop.",
+      "interpolation": "BILINEAR",
+      "antialias": true,
+      "rescale_pixels_to": [
+        0.0,
+        1.0
+      ],
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "source": {
+        "copy_relative_path": "provenance/static_reference_source/torchvision_transform_presets.py",
+        "bytes": 8721,
+        "sha256": "897e4bafca99bc703e5313808c11fe8938aee66ea5da1411c0944eb31603b3fc",
+        "exact_byte_copy": true,
+        "read_as_static_text_or_bytes_only": true,
+        "imported_or_executed_in_this_task": false
+      },
+      "used_in_this_task": false
+    }
+  },
+  "candidate_order": [
+    "convnext_tiny",
+    "swin_t",
+    "vit_b_16"
+  ],
+  "candidates": {
+    "convnext_tiny": {
+      "builder": "torchvision.models.convnext_tiny",
+      "weights_enum": "ConvNeXt_Tiny_Weights.IMAGENET1K_V1",
+      "weight_url": "https://download.pytorch.org/models/convnext_tiny-983f1562.pth",
+      "url_sha256_prefix": "983f1562",
+      "actual_weight_sha256": null,
+      "actual_weight_bytes_verified_in_this_task": false,
+      "weights_downloaded_or_loaded_in_this_task": false,
+      "source": {
+        "copy_relative_path": "provenance/static_reference_source/torchvision_convnext.py",
+        "bytes": 15762,
+        "sha256": "c4ce8859498fdfe4d29fbf7f00f0385834a0ccbe494915ef225789c959a64588",
+        "exact_byte_copy": true,
+        "read_as_static_text_or_bytes_only": true,
+        "imported_or_executed_in_this_task": false
+      },
+      "feature_hook": "features -> avgpool -> classifier[0] LayerNorm2d -> classifier[1] Flatten; exactly input to classifier[2] Linear.",
+      "final_classifier_linear_layer": "classifier[2]",
+      "expected_feature_dimension": 768,
+      "normalization_modules_before_hook": {
+        "classifier[0]": "LayerNorm2d",
+        "eps": 1e-06
+      },
+      "must_preserve_normalization_before_hook": true,
+      "transforms": {
+        "implementation": "torchvision.transforms._presets.ImageClassification",
+        "crop_size": 224,
+        "resize_size": 236,
+        "resize_semantics": "Resize shorter edge, preserve aspect ratio; then center crop.",
+        "interpolation": "BILINEAR",
+        "antialias": true,
+        "rescale_pixels_to": [
+          0.0,
+          1.0
+        ],
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "source": {
+          "copy_relative_path": "provenance/static_reference_source/torchvision_transform_presets.py",
+          "bytes": 8721,
+          "sha256": "897e4bafca99bc703e5313808c11fe8938aee66ea5da1411c0944eb31603b3fc",
+          "exact_byte_copy": true,
+          "read_as_static_text_or_bytes_only": true,
+          "imported_or_executed_in_this_task": false
+        },
+        "used_in_this_task": false
+      }
+    },
+    "swin_t": {
+      "builder": "torchvision.models.swin_t",
+      "weights_enum": "Swin_T_Weights.IMAGENET1K_V1",
+      "weight_url": "https://download.pytorch.org/models/swin_t-704ceda3.pth",
+      "url_sha256_prefix": "704ceda3",
+      "actual_weight_sha256": null,
+      "actual_weight_bytes_verified_in_this_task": false,
+      "weights_downloaded_or_loaded_in_this_task": false,
+      "source": {
+        "copy_relative_path": "provenance/static_reference_source/torchvision_swin_transformer.py",
+        "bytes": 40364,
+        "sha256": "be3b74f7974d7eebcc5f5f96106ef6b6a7bfc7102db012d0cadb6cf3c2f6bc1f",
+        "exact_byte_copy": true,
+        "read_as_static_text_or_bytes_only": true,
+        "imported_or_executed_in_this_task": false
+      },
+      "feature_hook": "features -> norm -> permute(BHWC to BCHW) -> avgpool -> flatten; exactly input to head Linear.",
+      "final_classifier_linear_layer": "head",
+      "expected_feature_dimension": 768,
+      "normalization_modules_before_hook": {
+        "norm": "LayerNorm",
+        "eps": 1e-05
+      },
+      "must_preserve_normalization_before_hook": true,
+      "transforms": {
+        "implementation": "torchvision.transforms._presets.ImageClassification",
+        "crop_size": 224,
+        "resize_size": 232,
+        "resize_semantics": "Resize shorter edge, preserve aspect ratio; then center crop.",
+        "interpolation": "BICUBIC",
+        "antialias": true,
+        "rescale_pixels_to": [
+          0.0,
+          1.0
+        ],
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "source": {
+          "copy_relative_path": "provenance/static_reference_source/torchvision_transform_presets.py",
+          "bytes": 8721,
+          "sha256": "897e4bafca99bc703e5313808c11fe8938aee66ea5da1411c0944eb31603b3fc",
+          "exact_byte_copy": true,
+          "read_as_static_text_or_bytes_only": true,
+          "imported_or_executed_in_this_task": false
+        },
+        "used_in_this_task": false
+      }
+    },
+    "vit_b_16": {
+      "builder": "torchvision.models.vit_b_16",
+      "weights_enum": "ViT_B_16_Weights.IMAGENET1K_V1",
+      "weight_url": "https://download.pytorch.org/models/vit_b_16-c867db91.pth",
+      "url_sha256_prefix": "c867db91",
+      "actual_weight_sha256": null,
+      "actual_weight_bytes_verified_in_this_task": false,
+      "weights_downloaded_or_loaded_in_this_task": false,
+      "source": {
+        "copy_relative_path": "provenance/static_reference_source/torchvision_vision_transformer.py",
+        "bytes": 32988,
+        "sha256": "a832238318b4c406a9051cab8941538ee22c4de5a2410d369d96a4b3b4a10a81",
+        "exact_byte_copy": true,
+        "read_as_static_text_or_bytes_only": true,
+        "imported_or_executed_in_this_task": false
+      },
+      "feature_hook": "_process_input -> prepend class_token -> encoder (including encoder.ln) -> CLS token x[:,0]; exactly input to heads.head Linear. representation_size=None; no token averaging.",
+      "final_classifier_linear_layer": "heads.head",
+      "expected_feature_dimension": 768,
+      "normalization_modules_before_hook": {
+        "encoder.ln": "LayerNorm",
+        "eps": 1e-06
+      },
+      "must_preserve_normalization_before_hook": true,
+      "transforms": {
+        "implementation": "torchvision.transforms._presets.ImageClassification",
+        "crop_size": 224,
+        "resize_size": 256,
+        "resize_semantics": "Resize shorter edge, preserve aspect ratio; then center crop.",
+        "interpolation": "BILINEAR",
+        "antialias": true,
+        "rescale_pixels_to": [
+          0.0,
+          1.0
+        ],
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "source": {
+          "copy_relative_path": "provenance/static_reference_source/torchvision_transform_presets.py",
+          "bytes": 8721,
+          "sha256": "897e4bafca99bc703e5313808c11fe8938aee66ea5da1411c0944eb31603b3fc",
+          "exact_byte_copy": true,
+          "read_as_static_text_or_bytes_only": true,
+          "imported_or_executed_in_this_task": false
+        },
+        "used_in_this_task": false
+      }
+    }
+  },
+  "later_execution_definition": {
+    "mode": "model.eval()",
+    "gradient_mode": "no_grad",
+    "forward_precision": "FP32",
+    "feature_definition": "Capture exact input to final classifier Linear, then x / ||x||_2 per row.",
+    "nonfinite_or_zero_norm_feature_policy": "STOP; do not silently change normalization or feature definition.",
+    "food101_fine_tuning": false,
+    "official_weight_specific_transforms": true,
+    "candidate_set_substitution_allowed": false
+  },
+  "weights_loader_static_source": {
+    "copy_relative_path": "provenance/static_reference_source/torchvision_weights_api.py",
+    "bytes": 10241,
+    "sha256": "57a956a2982036cfd64a9a636ad7b2155c23fb1fcc654980575fe6de485218dd",
+    "exact_byte_copy": true,
+    "read_as_static_text_or_bytes_only": true,
+    "imported_or_executed_in_this_task": false
+  },
+  "weight_identity_note": "Published URL SHA256 prefixes only. No actual weight payload is accessed or authenticated in this metadata task. Later authorized execution must record its full path/bytes/SHA256 and verify the published prefix before loading.",
+  "qualification_definition_reference": "QUALIFICATION_RULE_LOCK.json",
+  "qualification_executed": false,
+  "selected_new_encoder": null
+}

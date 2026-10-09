@@ -1,0 +1,16 @@
+paper_claim_or_check,artifact_entry,verification_mode,full_rerun_needed
+CIFAR final R1/R2 response and composed-action values,tables/cifar_final_primary.csv,verify_release_tables.py,no
+Food-101 mean R1/R2 response and composed-action values,tables/food101_external_primary.csv,verify_release_tables.py,no
+Food-101 all six stream-by-event response directions,tables/food101_external_streams.csv,verify_release_tables.py,no
+CIFAR frontend stress sequence,tables/frontend_stress.csv,table inspection; full frontend code available partly,no for paper table; yes for full feature regeneration
+CIFAR interaction decomposition,tables/interaction_decomposition.csv + code/analyses/analyze_saved_scores.py,verify_release_tables.py for arithmetic; accepted analysis code for saved-score rerun,no for arithmetic; yes for saved-score package rerun
+Endpoint score-RMS direction,tables/endpoint_summary.csv,verify_release_tables.py,no
+CIFAR final protocol counts/request arithmetic,protocol/cifar_final/STUDY_LOCK.json,verify_protocol_summaries.py,no for summary; yes for row-level identity
+Food-101 folds/stream/request arithmetic,protocol/food101_external/STUDY_LOCK.json,verify_protocol_summaries.py,no for summary; yes for row-level identity
+Accepted experiment package identity,tables/frozen_package_hashes.csv,verify_frozen_package_hashes.py,no
+Public artifact privacy/basic completeness,verification/verify_inventory.py + verification/verify_public_hygiene.py,run_all.py,no
+CIFAR exact-evidence coverage closes response gap,tables/exact_evidence_coverage.csv,verify_strengthening_results.py,no for summary; yes for raw feature rerun
+Nested correction-size response distinction,tables/correction_size_sensitivity.csv,verify_strengthening_results.py,no for summary; yes for raw feature rerun
+Conditional paired bootstrap primary intervals,tables/conditional_bootstrap_primary.csv,verify_strengthening_results.py,no
+Food stream-level conditional bootstrap intervals,tables/conditional_bootstrap_food_streams.csv,verify_strengthening_results.py,no
+Retained sample_current diagnostic control (Supplement Table S16),tables/sample_current_control.csv,accepted table inspection and sealed byte identity,no

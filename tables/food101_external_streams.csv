@@ -1,0 +1,7 @@
+event,stream,mean_response_rel,paired_response_rel,response_reduction_pct,composed_action_direction
+R1,A,0.643574,0.551970,14.23,worse
+R1,B,0.646908,0.554540,14.28,worse
+R1,C,0.633242,0.547061,13.61,better
+R2,A,0.344025,0.298898,13.12,better
+R2,B,0.345636,0.301343,12.81,worse
+R2,C,0.337838,0.296008,12.38,better

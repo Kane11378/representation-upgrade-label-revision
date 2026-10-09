@@ -1,0 +1,65 @@
+{
+  "task": "FASTFILL_FINAL_UNSEEN_CONFIRMATION_01",
+  "status": "ALL_CANDIDATES_LOCKED_BEFORE_EVALUATION",
+  "stream_id": 907001,
+  "methods": [
+    "mean",
+    "paired025",
+    "sample_current"
+  ],
+  "stages": [
+    "before_R1",
+    "after_refresh_R1",
+    "after_R1",
+    "before_R2",
+    "after_refresh_R2",
+    "after_R2"
+  ],
+  "files": {
+    "PUBLIC_PROTOCOL.json": {
+      "bytes": 496795,
+      "sha256": "5d1a1801fd4cdba345c327eb8f58cca92dcab8e8f7a3b1d6220ecad30d2a318c"
+    },
+    "PROTOCOL_GATE.json": {
+      "bytes": 2816,
+      "sha256": "aa2005ba71ac608dd82b1d1703fb9300bacdc41107d28f2031d284fd10b5db17"
+    },
+    "FEATURE_CACHE_LOCK.json": {
+      "bytes": 81939,
+      "sha256": "e8d1ced48ea695bdf1998ad2cbb620cdac32798c8bca6db1d28f5ad513400923"
+    },
+    "FASTFILL_PROXY_LOCK.json": {
+      "bytes": 94788,
+      "sha256": "aa39626b0dfa63bce666094135d2102b126057020f84e0d348829dba4d6563c3"
+    },
+    "DINO_IDENTITY_GATE.json": {
+      "bytes": 84205,
+      "sha256": "0e546e12af24d86f7b22cc5682bfe7f566b237af156f7d114178d96dbec14579"
+    },
+    "EXECUTION_SOURCE_LOCK.json": {
+      "bytes": 8390,
+      "sha256": "09bcf3a04a37ebe395775b84e60bbe65154e87b537102993c5e507d7e26c887b"
+    },
+    "built/HEADS.npz": {
+      "bytes": 10611692,
+      "sha256": "40090d0a30c5eecd82a2f5a0a3edddda8a41531005d1d984fde10f53aa6ce922"
+    },
+    "built/STATES_ARRAYS.npz": {
+      "bytes": 196428277,
+      "sha256": "d94293b804b53fb5064555c325dc9f5a91737b57bfc8632823cf5fc30ccabc8d"
+    },
+    "ACCESS_RECEIPTS.json": {
+      "bytes": 1722170,
+      "sha256": "b61ab2458b0fef8374cb9ccfd2bfbad4a8412ff11fc3352bbcd058149530e608"
+    },
+    "built/BUILD_COST.json": {
+      "bytes": 3114,
+      "sha256": "73e90523537e107451b422d20a9e9b5d400bef9261a5d3d9842a0f85a167c49b"
+    }
+  },
+  "performance_computed": false,
+  "eval_truth_read": false,
+  "full_reference_built": false,
+  "protocol_rng_regenerated": false,
+  "created_utc": "2026-10-06T06:25:04.379519+00:00"
+}

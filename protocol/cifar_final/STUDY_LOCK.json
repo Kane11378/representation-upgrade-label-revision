@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "study": "CIFAR final held-out strong-frontend confirmation",
+  "provenance": {
+    "protocol_review": "results/fastfill_final_unseen_protocol_freeze_01/REVIEW.md",
+    "confirmation_review": "results/fastfill_final_unseen_confirmation_01/REVIEW.md",
+    "protocol_delivery_sha256": "744ebb41dccaa2a99e16c878b01c2c1dd72b4a1c2850f906a294c50f7d77355c",
+    "confirmation_delivery_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+    "note": "This public JSON is a reviewer-facing summary reconstructed only from accepted review records. It is not the row-level protocol lock. Exact ID/request lock files must be imported from the frozen delivery before public v1.0."
+  },
+  "reserve": {
+    "namespace": "official CIFAR-100 TRAIN zero-based rows",
+    "count": 6000,
+    "canonical_sorted_set_sha256": "c143c86f777948117dd14e67248ac3cb267ea606c30d76a1ac50ec0b8ca0c20b"
+  },
+  "stream": {
+    "seed": 907001,
+    "history": 4000,
+    "arrival_E": 1000,
+    "evaluation": 1000
+  },
+  "initial_evidence": {
+    "fit_certainty": 512,
+    "pilot": 512,
+    "fit_pilot_disjoint": true,
+    "selection_uses_labels_features_sigma_requests": false
+  },
+  "labels_and_requests": {
+    "initial_observed_label": "noisy_label",
+    "released_truth": "clean_label == official TRAIN fine_labels",
+    "history_noisy_ne_clean": 1639,
+    "arrival_noisy_ne_clean": 408,
+    "evaluation_disagreements_descriptive_only": 422,
+    "R1": 819,
+    "R2_remaining_history": 820,
+    "R2_arrival": 408,
+    "R2_total": 1228,
+    "official_test_used": false
+  },
+  "frontend": {
+    "name": "normalized FastFill epoch79",
+    "checkpoint_sha256": "0ac692e1e9dd0994e89a3f40fbc165a34cd097503ded8ac56cea0249712538f8",
+    "post_normalization": false,
+    "pilot_bias": false,
+    "sigma_evidence_selection": false
+  },
+  "backend": {
+    "methods_primary": ["mean", "paired025"],
+    "alpha": 0.25,
+    "ridge": 1.0,
+    "shrink": 0.1,
+    "current_core_sha256": "0b28ae97c4fcd65eb901938e06a8642a899e5c32208b239da7b4ac64101d6bd7",
+    "controls": ["sample_current", "full_target_ridge"]
+  },
+  "primary": {
+    "R1": "response_rel(paired025) < response_rel(mean)",
+    "R2": "response_rel(paired025) < response_rel(mean)",
+    "minimum_effect_size_threshold": null,
+    "iid_p_values_from_event_or_stage_cells": false
+  }
+}

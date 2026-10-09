@@ -1,0 +1,201 @@
+{
+  "status": "FROZEN_BEFORE_FEATURE_OR_PERFORMANCE_EXECUTION",
+  "created_utc": "2026-10-06T13:25:50.871965+00:00",
+  "phase": "guard_repair_v2_execution",
+  "files": {
+    "ARTIFACT_CONTRACT.json": {
+      "bytes": 4491,
+      "sha256": "2fe8db3ef57ce380367ad8e7d24c2cf7c03d13a43193f943d7084af5592a705b"
+    },
+    "audit/DIAGNOSTIC_SOURCE_LOCK.json": {
+      "bytes": 295,
+      "sha256": "d1be6e8789f0f5d35eacd464f4865f72959eed12d98793f7469b0a72f2f23b01"
+    },
+    "audit/EXECUTION_STATIC_REVIEW.json": {
+      "bytes": 13588,
+      "sha256": "2bb09f33f5a8791b784f40d77192962cf593121fe14607dc493c36316eaecbcd"
+    },
+    "audit/EXECUTION_STATIC_REVIEW_V2.json": {
+      "bytes": 12635,
+      "sha256": "a01c5a53c18fc55abe41953d206c700886ea66d22d7d084396059dff2017f318"
+    },
+    "audit/INITIAL_RUNTIME_GATE_PRE_GUARD_PASS.json": {
+      "bytes": 4568,
+      "sha256": "92aabf536da64ee478848c2df87b39f07fb70786c0005d71e3e341b975c7ac40"
+    },
+    "audit/PROTOCOL_GATE_SOURCE_LOCK.json": {
+      "bytes": 337,
+      "sha256": "979639e5537f5ba3716b5c652f87b286e258422c1a92ef7d6c53baba1d1ffcd1"
+    },
+    "audit/RUNTIME_ACCESS_FAILURE_DIAGNOSTIC.json": {
+      "bytes": 18165,
+      "sha256": "cbfac3ef0cb7cd075b335358ca383c1cede3f012ae25c3c37d367f482a061182"
+    },
+    "audit/RUNTIME_GATE_ARCHIVAL_RECEIPT.json": {
+      "bytes": 668,
+      "sha256": "7ab8ac103a48166819a51de3762fad992c1a00c98965263772e37e390c62f455"
+    },
+    "audit/RUNTIME_GUARD_ENGINEERING_REPAIR.json": {
+      "bytes": 18644,
+      "sha256": "4b7e6eaf1366edbd50bc194378b276eb382f4c4c1ef71e38dfc0ad18301aedca"
+    },
+    "audit/WEIGHT_PREPARATION_SOURCE_LOCK.json": {
+      "bytes": 408,
+      "sha256": "c18b77f01b8d15b05b7909ba33e393a2b3401412b42c501b30b8f4ceb374016c"
+    },
+    "AUDIT_SOURCE_LOCK.json": {
+      "bytes": 598,
+      "sha256": "2cd9c5f939ae1fb2cfb13996dd1b4579c5c0906b2a3ad4141ec8002f0f31c419"
+    },
+    "code/encode_qualification.py": {
+      "bytes": 30654,
+      "sha256": "eefd0aa36a3838b2ba4fcf094ce80cefa7b154c98858809abd71a2d489cd3851"
+    },
+    "code/encode_qualification_v2.py": {
+      "bytes": 36153,
+      "sha256": "c44bb7e14def4a859d20c7e248286144cffbee4268783c2340776201d1d86abd"
+    },
+    "code/finish_qualification.py": {
+      "bytes": 9992,
+      "sha256": "198ac6a48cb10135b292d673d0259c912f4b35b176ba5e78df8bbedc2c6b1a67"
+    },
+    "code/finish_qualification_v2.py": {
+      "bytes": 11047,
+      "sha256": "6b20e1ddf91d1b4055488e2ef7f02a6763f6652d8f23448b91b08b68a30a64b5"
+    },
+    "code/freeze_sources.py": {
+      "bytes": 2006,
+      "sha256": "64d39bf80a842080bae13da36f6e4bef0aa708ef4cfc53c1420e825e5011c007"
+    },
+    "code/freeze_sources_v2.py": {
+      "bytes": 3201,
+      "sha256": "c04c2ff9ea15c2f853c383be64379ca0c210c4d3befacb38e1f7a08f4b063089"
+    },
+    "code/prepare_weights.py": {
+      "bytes": 5651,
+      "sha256": "4ccb7b78580e0678a2b7f6347ede3c3a0f4678a7cdca83e080a0cb5db5c51edc"
+    },
+    "code/protocol_gate.py": {
+      "bytes": 15120,
+      "sha256": "d145af3c540b755245edf21f1fcba80f848ef7eb993a634e0fc2c113ef18c2b1"
+    },
+    "code/ridge_qualification.py": {
+      "bytes": 23538,
+      "sha256": "30f825e1fb6dee490fbfd75ecf96971d69b18cc4ee76964ea41a856aa7325346"
+    },
+    "code/ridge_qualification_v2.py": {
+      "bytes": 24318,
+      "sha256": "5b92ced715fd55bfa93a7001479ebc006dc51f95118de8c6f77036008fbad85b"
+    },
+    "code/runtime_access_diagnostic.py": {
+      "bytes": 5596,
+      "sha256": "443d91a49cde9a1b0ebe67fd5fab7aa5daa816a41b8bca65ca09053ace6620a1"
+    },
+    "code/snapshot_source_diff.py": {
+      "bytes": 1299,
+      "sha256": "415a19266b969e4bcd192f7515e89a4a223d153bf710a0c29b4f3e64297c804d"
+    },
+    "code/snapshot_source_diff_v2.py": {
+      "bytes": 1387,
+      "sha256": "20bd361a02e4a865451cc1ce6b18e96dd42657021fb61b3b5c6c8c09065b3b77"
+    },
+    "EXECUTION_SOURCE_LOCK.json": {
+      "bytes": 5322,
+      "sha256": "cc75267ec09441c4cd6a379ff6c3719eeae54e092d0cc96423309802da3a1932"
+    },
+    "PROTOCOL_GATE.json": {
+      "bytes": 20202,
+      "sha256": "e80891232facb01ef310f91002bc98f30fb2359b29afd4e7f99d7fdc9a0381b6"
+    },
+    "provenance/FOOD101_ENCODER_QUALIFICATION_01.md": {
+      "bytes": 7486,
+      "sha256": "0edb2c0bf95b28ed45910e7244c1b79620c25746096048ead3699aad530c6d12"
+    },
+    "provenance/protocol_freeze/DATASET_IDENTITY.json": {
+      "bytes": 11204181,
+      "sha256": "9e5642c76d023f975e83e6ef2782f0f47707a4e0be31d9c1e7f2d35a9f3b1e73"
+    },
+    "provenance/protocol_freeze/MANIFEST.json": {
+      "bytes": 12958,
+      "sha256": "02f82822baad5e6acd86caa435cf8efc6d9d29770dff29dc12091b2ab1e06e9a"
+    },
+    "provenance/protocol_freeze/MODEL_CANDIDATE_LOCK.json": {
+      "bytes": 12679,
+      "sha256": "5848e9565cfe07b1da16fc42701bf1a0ef13a40c4087293708ca5e5af0abdff3"
+    },
+    "provenance/protocol_freeze/NO_ACCESS_AUDIT.json": {
+      "bytes": 9553,
+      "sha256": "2ee653740698a77c5d443f8be3a7beca09bd9ba74cc92fefc526a87f3e32519d"
+    },
+    "provenance/protocol_freeze/PROTOCOL_STATUS.json": {
+      "bytes": 422,
+      "sha256": "8d2de3a43a1a1ea10aa47825fe2b1cb118b26162b79376f7b483fad622f0f9a1"
+    },
+    "provenance/protocol_freeze/QUALIFICATION_RULE_LOCK.json": {
+      "bytes": 1746,
+      "sha256": "b7609dc2010073fdbe93908d47a13cd5867a305401a16332412dfbd29b735b72"
+    },
+    "provenance/protocol_freeze/SIX_FOLD_LOCK.json": {
+      "bytes": 16040560,
+      "sha256": "787afbecd21cef95159f31fa67dede6fc850fd17eefee139183afd98b4307f6d"
+    },
+    "provenance/REPOSITORY_LOCK.json": {
+      "bytes": 374,
+      "sha256": "70372b3ec6b4dc4ab3449622183f5a15146e4f6d9d0f2790eccad2a7bbf24b07"
+    },
+    "provenance/static_reference_source/torch_version.py": {
+      "bytes": 323,
+      "sha256": "0d5cd125dd13835680b112f6e51c7c3187f8a2417de055ae576077a671d3d4b0"
+    },
+    "provenance/static_reference_source/torchvision_convnext.py": {
+      "bytes": 15762,
+      "sha256": "c4ce8859498fdfe4d29fbf7f00f0385834a0ccbe494915ef225789c959a64588"
+    },
+    "provenance/static_reference_source/torchvision_resnet.py": {
+      "bytes": 39905,
+      "sha256": "7c329198f414e411dd64d67784c1f7efbb1e85bdb8e160b8c5d5c5619f9ab119"
+    },
+    "provenance/static_reference_source/torchvision_swin_transformer.py": {
+      "bytes": 40364,
+      "sha256": "be3b74f7974d7eebcc5f5f96106ef6b6a7bfc7102db012d0cadb6cf3c2f6bc1f"
+    },
+    "provenance/static_reference_source/torchvision_transform_presets.py": {
+      "bytes": 8721,
+      "sha256": "897e4bafca99bc703e5313808c11fe8938aee66ea5da1411c0944eb31603b3fc"
+    },
+    "provenance/static_reference_source/torchvision_version.py": {
+      "bytes": 206,
+      "sha256": "bda569d9ce78fffbe550d66c5f2d40a2884b5302ef89bc41dc6a3e7d64a02b40"
+    },
+    "provenance/static_reference_source/torchvision_vision_transformer.py": {
+      "bytes": 32988,
+      "sha256": "a832238318b4c406a9051cab8941538ee22c4de5a2410d369d96a4b3b4a10a81"
+    },
+    "provenance/static_reference_source/torchvision_weights_api.py": {
+      "bytes": 10241,
+      "sha256": "57a956a2982036cfd64a9a636ad7b2155c23fb1fcc654980575fe6de485218dd"
+    },
+    "QUALIFICATION_DATA_LOCK.json": {
+      "bytes": 4243255,
+      "sha256": "be515b80fbc4ec05c7d1cb1d49bc2b483f89770931cb10a92d3d9c4fdd08964e"
+    },
+    "WEIGHT_IDENTITY.json": {
+      "bytes": 2784,
+      "sha256": "32ab04606d016ba2c5df706af7f8b84a3a0360d9328af648fa02168b9906cd4a"
+    }
+  },
+  "original_source_locks": {
+    "EXECUTION_SOURCE_LOCK.json": {
+      "bytes": 5322,
+      "sha256": "cc75267ec09441c4cd6a379ff6c3719eeae54e092d0cc96423309802da3a1932"
+    },
+    "AUDIT_SOURCE_LOCK.json": {
+      "bytes": 598,
+      "sha256": "2cd9c5f939ae1fb2cfb13996dd1b4579c5c0906b2a3ad4141ec8002f0f31c419"
+    }
+  },
+  "all_original_sources_and_locks_preserved": true,
+  "feature_extraction_or_ridge_started": false,
+  "scientific_settings_or_model_environment_changes": false,
+  "reason": "Separately record narrowly identified denied bootstrap Windows-version metadata probes; complete guard check precedes authoritative runtime PASS."
+}

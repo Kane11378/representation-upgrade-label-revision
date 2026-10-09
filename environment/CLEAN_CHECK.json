@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-07",
+  "status": "PASS",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "win32",
+    "isolated": true,
+    "user_site_enabled": false,
+    "created_with": "python -m venv --without-pip",
+    "third_party_packages_present": {
+      "numpy": false,
+      "scipy": false,
+      "torch": false,
+      "torchvision": false
+    }
+  },
+  "command": "python -I -B verification/run_all.py",
+  "working_directory": "standalone public_release staging tree",
+  "result": "ALL_LIGHTWEIGHT_CHECKS_PASS",
+  "checks": [
+    "original reviewer arithmetic/strengthening",
+    "exact lock and accepted code identities",
+    "CFF official schema and ORCID",
+    "public privacy hygiene",
+    "complete inventory and SHA256 manifest"
+  ],
+  "network_required": false,
+  "scientific_runners_executed": false,
+  "limitation": "This verifies the clean lightweight release artifact. It does not validate a new full scientific model/encoder/cache rerun."
+}

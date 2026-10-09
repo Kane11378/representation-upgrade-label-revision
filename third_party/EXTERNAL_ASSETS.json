@@ -1,0 +1,471 @@
+{
+  "schema_version": 1,
+  "scope": "External inputs and retained outputs referenced by accepted frozen identities; no payload redistribution.",
+  "assets": [
+    {
+      "id": "cifar:FINAL_EPOCH_79.pt",
+      "study": "cifar",
+      "logical_path": "FINAL_EPOCH_79.pt",
+      "bytes": 60189229,
+      "sha256": "0ac692e1e9dd0994e89a3f40fbc165a34cd097503ded8ac56cea0249712538f8",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "FASTFILL_PROXY_LOCK.json",
+        "bytes": 94788,
+        "sha256": "aa39626b0dfa63bce666094135d2102b126057020f84e0d348829dba4d6563c3"
+      },
+      "source_pointer": "/checkpoint",
+      "bundled": false
+    },
+    {
+      "id": "cifar:OLD_SENTINELS_64.npz",
+      "study": "cifar",
+      "logical_path": "OLD_SENTINELS_64.npz",
+      "bytes": 274478,
+      "sha256": "ef5763683625965551f7bcca2200d4ca1ad09a72ea1e4cbbd9853c01d4068279",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "DINO_IDENTITY_GATE.json",
+        "bytes": 84205,
+        "sha256": "0e546e12af24d86f7b22cc5682bfe7f566b237af156f7d114178d96dbec14579"
+      },
+      "source_pointer": "/sources/sentinel",
+      "bundled": false
+    },
+    {
+      "id": "cifar:audit/DINO_GATE_ARRAYS.npz",
+      "study": "cifar",
+      "logical_path": "audit/DINO_GATE_ARRAYS.npz",
+      "bytes": 6904223,
+      "sha256": "2afb996a3b6af378be0e5b9a65c3ad89bc324692c89bfeb7ada82066824b5bf6",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "DINO_IDENTITY_GATE.json",
+        "bytes": 84205,
+        "sha256": "0e546e12af24d86f7b22cc5682bfe7f566b237af156f7d114178d96dbec14579"
+      },
+      "source_pointer": "/arrays_asset",
+      "bundled": false
+    },
+    {
+      "id": "cifar:cifar-100-python.tar.gz",
+      "study": "cifar",
+      "logical_path": "cifar-100-python.tar.gz",
+      "bytes": 169001437,
+      "sha256": "85cd44d02ba6437773c5bbd22e183051d648de2e7d6b014e1ef29b855ba677a7",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "DINO_IDENTITY_GATE.json",
+        "bytes": 84205,
+        "sha256": "0e546e12af24d86f7b22cc5682bfe7f566b237af156f7d114178d96dbec14579"
+      },
+      "source_pointer": "/sources/archive",
+      "bundled": false
+    },
+    {
+      "id": "cifar:dinov2_vitb14_pretrain.pth",
+      "study": "cifar",
+      "logical_path": "dinov2_vitb14_pretrain.pth",
+      "bytes": 346378731,
+      "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "DINO_IDENTITY_GATE.json",
+        "bytes": 84205,
+        "sha256": "0e546e12af24d86f7b22cc5682bfe7f566b237af156f7d114178d96dbec14579"
+      },
+      "source_pointer": "/sources/B",
+      "bundled": false
+    },
+    {
+      "id": "cifar:dinov2_vits14_pretrain.pth",
+      "study": "cifar",
+      "logical_path": "dinov2_vits14_pretrain.pth",
+      "bytes": 88283115,
+      "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "DINO_IDENTITY_GATE.json",
+        "bytes": 84205,
+        "sha256": "0e546e12af24d86f7b22cc5682bfe7f566b237af156f7d114178d96dbec14579"
+      },
+      "source_pointer": "/sources/S",
+      "bundled": false
+    },
+    {
+      "id": "cifar:evaluation/HEADS_FULL.npz",
+      "study": "cifar",
+      "logical_path": "evaluation/HEADS_FULL.npz",
+      "bytes": 3537670,
+      "sha256": "75d5f0a8cf92fc39c8a72aa01edca988c34128d97025542bea86feeef4878e2b",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "EVALUATION_LOCK.json",
+        "bytes": 3780,
+        "sha256": "1b27c145c033d19ea0b14bc1438c680f396bfcb4a95f9ac6fd096fac47713e07"
+      },
+      "source_pointer": "/files/evaluation~1HEADS_FULL.npz",
+      "bundled": false
+    },
+    {
+      "id": "cifar:evaluation/PREDICTIONS.npz",
+      "study": "cifar",
+      "logical_path": "evaluation/PREDICTIONS.npz",
+      "bytes": 43081,
+      "sha256": "489421a5c75514a61add962f782775963b83ff232bc0c69ce7a10968216904d8",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "EVALUATION_LOCK.json",
+        "bytes": 3780,
+        "sha256": "1b27c145c033d19ea0b14bc1438c680f396bfcb4a95f9ac6fd096fac47713e07"
+      },
+      "source_pointer": "/files/evaluation~1PREDICTIONS.npz",
+      "bundled": false
+    },
+    {
+      "id": "cifar:evaluation/SCORES.npz",
+      "study": "cifar",
+      "logical_path": "evaluation/SCORES.npz",
+      "bytes": 18397250,
+      "sha256": "f09fb4bf9cb85052a1a126c8de85262ad04c7a323a4579c9cce1c44763ea1946",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "EVALUATION_LOCK.json",
+        "bytes": 3780,
+        "sha256": "1b27c145c033d19ea0b14bc1438c680f396bfcb4a95f9ac6fd096fac47713e07"
+      },
+      "source_pointer": "/files/evaluation~1SCORES.npz",
+      "bundled": false
+    },
+    {
+      "id": "cifar:features/B.npy",
+      "study": "cifar",
+      "logical_path": "features/B.npy",
+      "bytes": 18432128,
+      "sha256": "c4ae159d93562f138e8cceded8e7d3c3619ddd094ed43ee818e59d3dcdc9f334",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "FEATURE_CACHE_LOCK.json",
+        "bytes": 81939,
+        "sha256": "e8d1ced48ea695bdf1998ad2cbb620cdac32798c8bca6db1d28f5ad513400923"
+      },
+      "source_pointer": "/assets/B",
+      "bundled": false
+    },
+    {
+      "id": "cifar:features/S.npy",
+      "study": "cifar",
+      "logical_path": "features/S.npy",
+      "bytes": 9216128,
+      "sha256": "4af138d998ec8d0323a4d8a8cf0d32e037e9a65c2662683a6b3d88d41b505f46",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "FEATURE_CACHE_LOCK.json",
+        "bytes": 81939,
+        "sha256": "e8d1ced48ea695bdf1998ad2cbb620cdac32798c8bca6db1d28f5ad513400923"
+      },
+      "source_pointer": "/assets/S",
+      "bundled": false
+    },
+    {
+      "id": "cifar:features/global_ids.npy",
+      "study": "cifar",
+      "logical_path": "features/global_ids.npy",
+      "bytes": 48128,
+      "sha256": "820c7f3c6aba80bff9484ac4d787ac7a388413c05bd98fa5eff3a30d70971c2e",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "FEATURE_CACHE_LOCK.json",
+        "bytes": 81939,
+        "sha256": "e8d1ced48ea695bdf1998ad2cbb620cdac32798c8bca6db1d28f5ad513400923"
+      },
+      "source_pointer": "/assets/global_ids",
+      "bundled": false
+    },
+    {
+      "id": "cifar:proxy/proxy.npy",
+      "study": "cifar",
+      "logical_path": "proxy/proxy.npy",
+      "bytes": 12288128,
+      "sha256": "d9770476ba289cfeef081e0f222ac2acf14ed4ed0e28e02005764669243ca5a6",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "FASTFILL_PROXY_LOCK.json",
+        "bytes": 94788,
+        "sha256": "aa39626b0dfa63bce666094135d2102b126057020f84e0d348829dba4d6563c3"
+      },
+      "source_pointer": "/assets/proxy",
+      "bundled": false
+    },
+    {
+      "id": "cifar:proxy/sigma.npy",
+      "study": "cifar",
+      "logical_path": "proxy/sigma.npy",
+      "bytes": 16128,
+      "sha256": "f79350f2495d65337abc69db274622a45b8c68318a56e025cf23f8f565963637",
+      "source_archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+      "source_member": {
+        "member": "FASTFILL_PROXY_LOCK.json",
+        "bytes": 94788,
+        "sha256": "aa39626b0dfa63bce666094135d2102b126057020f84e0d348829dba4d6563c3"
+      },
+      "source_pointer": "/assets/sigma",
+      "bundled": false
+    },
+    {
+      "id": "food:features/resnet18/fold2.npz",
+      "study": "food",
+      "logical_path": "features/resnet18/fold2.npz",
+      "bytes": 9842444,
+      "sha256": "312e43fd43c13fd42edd8c9df9381a5c0d00923f1e265e53f1ddcc58acd65e3f",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "ENCODER_FEATURE_LOCK.json",
+        "bytes": 37237,
+        "sha256": "10a0ab6e2d15b7d2f63efb5630a123d04a6b38491a9634c856bfab96f8f9c016"
+      },
+      "source_pointer": "/caches/resnet18_fold2",
+      "bundled": false
+    },
+    {
+      "id": "food:features/resnet18/fold3.npz",
+      "study": "food",
+      "logical_path": "features/resnet18/fold3.npz",
+      "bytes": 9842444,
+      "sha256": "10c1d5cd0a033c369189063422e6af232db18d04ec9195af87123b0eaaf91e0c",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "ENCODER_FEATURE_LOCK.json",
+        "bytes": 37237,
+        "sha256": "10a0ab6e2d15b7d2f63efb5630a123d04a6b38491a9634c856bfab96f8f9c016"
+      },
+      "source_pointer": "/caches/resnet18_fold3",
+      "bundled": false
+    },
+    {
+      "id": "food:features/resnet18/fold4.npz",
+      "study": "food",
+      "logical_path": "features/resnet18/fold4.npz",
+      "bytes": 9608124,
+      "sha256": "a9e7288b01323ec83328388bd97c0d9568b152e0be1ca37e52b43086c5198f1b",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "ENCODER_FEATURE_LOCK.json",
+        "bytes": 37237,
+        "sha256": "10a0ab6e2d15b7d2f63efb5630a123d04a6b38491a9634c856bfab96f8f9c016"
+      },
+      "source_pointer": "/caches/resnet18_fold4",
+      "bundled": false
+    },
+    {
+      "id": "food:features/resnet18/fold5.npz",
+      "study": "food",
+      "logical_path": "features/resnet18/fold5.npz",
+      "bytes": 9608124,
+      "sha256": "13e00c0320275b8fee4d547b9d66601fb14730aac9104d565bae3a4511424ecf",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "ENCODER_FEATURE_LOCK.json",
+        "bytes": 37237,
+        "sha256": "10a0ab6e2d15b7d2f63efb5630a123d04a6b38491a9634c856bfab96f8f9c016"
+      },
+      "source_pointer": "/caches/resnet18_fold5",
+      "bundled": false
+    },
+    {
+      "id": "food:features/swin_t/fold2.npz",
+      "study": "food",
+      "logical_path": "features/swin_t/fold2.npz",
+      "bytes": 14186252,
+      "sha256": "875e05bf89c92eb256430388e5799dbd1718121b171ec93f024640fbbc217b2c",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "ENCODER_FEATURE_LOCK.json",
+        "bytes": 37237,
+        "sha256": "10a0ab6e2d15b7d2f63efb5630a123d04a6b38491a9634c856bfab96f8f9c016"
+      },
+      "source_pointer": "/caches/swin_t_fold2",
+      "bundled": false
+    },
+    {
+      "id": "food:features/swin_t/fold3.npz",
+      "study": "food",
+      "logical_path": "features/swin_t/fold3.npz",
+      "bytes": 14186252,
+      "sha256": "734c34eea1c45f2994d78870aa8e9049312467938b5d0ac66f7d89296c46f170",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "ENCODER_FEATURE_LOCK.json",
+        "bytes": 37237,
+        "sha256": "10a0ab6e2d15b7d2f63efb5630a123d04a6b38491a9634c856bfab96f8f9c016"
+      },
+      "source_pointer": "/caches/swin_t_fold3",
+      "bundled": false
+    },
+    {
+      "id": "food:features/swin_t/fold4.npz",
+      "study": "food",
+      "logical_path": "features/swin_t/fold4.npz",
+      "bytes": 13848508,
+      "sha256": "31cf6b041659b9e7aa482e221b8ddcfcd835f8edd4d9b97e1de65a545b9f1f82",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "ENCODER_FEATURE_LOCK.json",
+        "bytes": 37237,
+        "sha256": "10a0ab6e2d15b7d2f63efb5630a123d04a6b38491a9634c856bfab96f8f9c016"
+      },
+      "source_pointer": "/caches/swin_t_fold4",
+      "bundled": false
+    },
+    {
+      "id": "food:features/swin_t/fold5.npz",
+      "study": "food",
+      "logical_path": "features/swin_t/fold5.npz",
+      "bytes": 13848508,
+      "sha256": "39161a9638b1ab9c08f38caa1ef534193a165a6855fd4569889257219f02b774",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "ENCODER_FEATURE_LOCK.json",
+        "bytes": 37237,
+        "sha256": "10a0ab6e2d15b7d2f63efb5630a123d04a6b38491a9634c856bfab96f8f9c016"
+      },
+      "source_pointer": "/caches/swin_t_fold5",
+      "bundled": false
+    },
+    {
+      "id": "food:food-101.tar.gz",
+      "study": "food",
+      "logical_path": "food-101.tar.gz",
+      "bytes": 4996278331,
+      "sha256": "d97d15e438b7f4498f96086a4f7e2fa42a32f2712e87d3295441b2b6314053a4",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "provenance/protocol_freeze/DATASET_IDENTITY.json",
+        "bytes": 11204181,
+        "sha256": "9e5642c76d023f975e83e6ef2782f0f47707a4e0be31d9c1e7f2d35a9f3b1e73"
+      },
+      "source_pointer": "/archive",
+      "bundled": false
+    },
+    {
+      "id": "food:resnet18-f37072fd.pth",
+      "study": "food",
+      "logical_path": "resnet18-f37072fd.pth",
+      "bytes": 46830571,
+      "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "WEIGHT_IDENTITY.json",
+        "bytes": 1739,
+        "sha256": "15194f23d0c4ea16d29a03e551221ee4bddd8b4f76cf063fda1b5d11e99157f2"
+      },
+      "source_pointer": "/encoders/resnet18",
+      "bundled": false
+    },
+    {
+      "id": "food:scores/A/PREDICTIONS.npz",
+      "study": "food",
+      "logical_path": "scores/A/PREDICTIONS.npz",
+      "bytes": 100705,
+      "sha256": "99a65887aba440427de8c2f91d65b0c904aa19b72e0d1029de9aec7b2c1f3452",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "SCORE_LOCK.json",
+        "bytes": 38633,
+        "sha256": "99fb266c25d5800e128abc585356f1684609572b578d87c39685172b714715f7"
+      },
+      "source_pointer": "/streams/A/predictions",
+      "bundled": false
+    },
+    {
+      "id": "food:scores/A/SCORES.npz",
+      "study": "food",
+      "logical_path": "scores/A/SCORES.npz",
+      "bytes": 76923261,
+      "sha256": "48b3eabe223a9764bb9d3549a85253c208f845a631cac7c6f008a45fc38eaaaa",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "SCORE_LOCK.json",
+        "bytes": 38633,
+        "sha256": "99fb266c25d5800e128abc585356f1684609572b578d87c39685172b714715f7"
+      },
+      "source_pointer": "/streams/A/scores",
+      "bundled": false
+    },
+    {
+      "id": "food:scores/B/PREDICTIONS.npz",
+      "study": "food",
+      "logical_path": "scores/B/PREDICTIONS.npz",
+      "bytes": 101354,
+      "sha256": "813ed969497bc4a70a95da76354bc4eac4eab24524b5b8b598d8e82e9476d00f",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "SCORE_LOCK.json",
+        "bytes": 38633,
+        "sha256": "99fb266c25d5800e128abc585356f1684609572b578d87c39685172b714715f7"
+      },
+      "source_pointer": "/streams/B/predictions",
+      "bundled": false
+    },
+    {
+      "id": "food:scores/B/SCORES.npz",
+      "study": "food",
+      "logical_path": "scores/B/SCORES.npz",
+      "bytes": 76922884,
+      "sha256": "8bc947f1b04517f735cc0f733792da1eb05916f5a1416780cef9694e015d6adb",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "SCORE_LOCK.json",
+        "bytes": 38633,
+        "sha256": "99fb266c25d5800e128abc585356f1684609572b578d87c39685172b714715f7"
+      },
+      "source_pointer": "/streams/B/scores",
+      "bundled": false
+    },
+    {
+      "id": "food:scores/C/PREDICTIONS.npz",
+      "study": "food",
+      "logical_path": "scores/C/PREDICTIONS.npz",
+      "bytes": 100693,
+      "sha256": "149753d39056f69bb62f8739357e65a8dabb9ace5217e965df3d5d5d7d65b4b7",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "SCORE_LOCK.json",
+        "bytes": 38633,
+        "sha256": "99fb266c25d5800e128abc585356f1684609572b578d87c39685172b714715f7"
+      },
+      "source_pointer": "/streams/C/predictions",
+      "bundled": false
+    },
+    {
+      "id": "food:scores/C/SCORES.npz",
+      "study": "food",
+      "logical_path": "scores/C/SCORES.npz",
+      "bytes": 76924367,
+      "sha256": "814a0facd643d4b562028c0c9caf183cb503ca67b18af1db62d9d369845a2ccd",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "SCORE_LOCK.json",
+        "bytes": 38633,
+        "sha256": "99fb266c25d5800e128abc585356f1684609572b578d87c39685172b714715f7"
+      },
+      "source_pointer": "/streams/C/scores",
+      "bundled": false
+    },
+    {
+      "id": "food:swin_t-704ceda3.pth",
+      "study": "food",
+      "logical_path": "swin_t-704ceda3.pth",
+      "bytes": 113445839,
+      "sha256": "704ceda373461b0a224fcdddd75cd2a5e9f8064512ed47adbddef7f343fd147b",
+      "source_archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+      "source_member": {
+        "member": "WEIGHT_IDENTITY.json",
+        "bytes": 1739,
+        "sha256": "15194f23d0c4ea16d29a03e551221ee4bddd8b4f76cf063fda1b5d11e99157f2"
+      },
+      "source_pointer": "/encoders/swin_t",
+      "bundled": false
+    }
+  ]
+}

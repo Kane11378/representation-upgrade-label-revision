@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "scope": "Historical accepted runtime evidence and observed release-tool environment; not a tested full-rerun lock.",
+  "accepted_cifar_encoding": {
+    "archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+    "source": {
+      "member": "FEATURE_CACHE_LOCK.json",
+      "bytes": 81939,
+      "sha256": "e8d1ced48ea695bdf1998ad2cbb620cdac32798c8bca6db1d28f5ad513400923"
+    },
+    "runtime": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "torch": "2.11.0+cu128",
+      "numpy": "2.5.2",
+      "pillow": "12.3.0",
+      "cuda": "12.8",
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "device": "cuda",
+      "threads": 8,
+      "encoder_seed": 641001,
+      "stream_seed_or_RNG_used_for_selection": false,
+      "FP32": true,
+      "eval": true,
+      "TF32": false,
+      "matmul_precision": "highest",
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": false,
+      "deterministic_algorithms": false,
+      "environment_installed_or_modified": false
+    }
+  },
+  "accepted_environment_distribution_inventory": {
+    "archive_sha256": "6dac21472d873856899938f57c8972d3f44fa433ec6f1f3db6a8d8a6b779045d",
+    "source": {
+      "member": "provenance/OLD_SOURCE_METADATA_BEFORE.json",
+      "bytes": 13585535,
+      "sha256": "fb87412a367a5a444629325ef01aaca11a7c6d736e477c794e7a34749bab2e0b"
+    },
+    "records": [
+      {
+        "path": "Lib/site-packages/numpy-2.5.3.dist-info/METADATA",
+        "bytes": 6635
+      },
+      {
+        "path": "Lib/site-packages/scipy-1.18.1.dist-info/METADATA",
+        "bytes": 61161
+      },
+      {
+        "path": "Lib/site-packages/threadpoolctl-3.7.0.dist-info/METADATA",
+        "bytes": 24052
+      },
+      {
+        "path": "Lib/site-packages/torch-2.14.1.dist-info/METADATA",
+        "bytes": 38534
+      },
+      {
+        "path": "Lib/site-packages/torchvision-0.29.1.dist-info/METADATA",
+        "bytes": 5675
+      },
+      {
+        "path": ".venv/Lib/site-packages/numpy-2.5.2.dist-info/METADATA",
+        "bytes": 6635
+      },
+      {
+        "path": ".venv/Lib/site-packages/scipy-1.18.1.dist-info/METADATA",
+        "bytes": 61161
+      },
+      {
+        "path": ".venv/Lib/site-packages/threadpoolctl-3.7.0.dist-info/METADATA",
+        "bytes": 24052
+      },
+      {
+        "path": ".venv/Lib/site-packages/torch-2.11.0+cu128.dist-info/METADATA",
+        "bytes": 29875
+      },
+      {
+        "path": ".venv/Lib/site-packages/torchvision-0.26.0+cu128.dist-info/METADATA",
+        "bytes": 5610
+      }
+    ],
+    "limitation": "Installed distribution metadata identities, not confirmation-phase imported-version evidence."
+  },
+  "accepted_food_encoding": {
+    "archive_sha256": "8250a4f98bc1a147787b40cc6ac020d07157fa2c75511d0915ce63fc58805808",
+    "source": {
+      "member": "RUNTIME_GATE.json",
+      "bytes": 18649,
+      "sha256": "e695efeb88641ad147470a2ac9cded3b55ff53bdc43a18f8b72d3db4e9157fca"
+    },
+    "actual_runtime": {
+      "python": "3.12.14",
+      "torch": "2.14.1+cpu",
+      "torch_git_version": "5c4886908584029761b579af026dcfb627c84070",
+      "torchvision": "0.29.1+cpu",
+      "torchvision_git_version": "1f1a920d685d46dfbe187934b785b7ecb7a182f2"
+    },
+    "settings": {
+      "batch_size": 32,
+      "device": "cpu",
+      "float32_matmul_precision": "highest",
+      "gradient": "torch.no_grad",
+      "mode": "eval",
+      "num_interop_threads": 1,
+      "num_threads": 8,
+      "numpy_BLAS_threads": 8,
+      "precision": "FP32",
+      "shuffle": false,
+      "workers": 0
+    }
+  },
+  "release_tool_environment": {
+    "python": "3.12.14",
+    "platform": "win32",
+    "observed_distribution_versions": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "torch": "2.14.1",
+      "torchvision": "0.29.1",
+      "threadpoolctl": "3.7.0",
+      "Pillow": "12.3.0"
+    },
+    "scientific_runners_executed": false
+  },
+  "clean_check": "See CLEAN_CHECK.json for standard-library-only verification in an isolated environment.",
+  "full_end_to_end_rerun": "NOT_RUN: external assets, licensed source and relocatable identity gates required."
+}

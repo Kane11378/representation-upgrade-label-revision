@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_BEFORE_PARTITIONING",
+  "namespace": "FOOD101_EXT_SCOPE_20261006_V1",
+  "image_id": "Exact official test.json class/stem string, no extension or images/ prefix",
+  "relative_path": "images/<image_id>.jpg",
+  "class_mapping": "sorted(test.json.keys()) enumerated 0..100, exact torchvision Food101 semantics",
+  "hash_class_token": "Decimal clean class_id without leading zero padding",
+  "hash_stream_token": "A, B, C",
+  "hash_stage_token": "history, E",
+  "hash_encoding": "UTF-8, literal pipe separators, no trailing newline; lowercase SHA256 hex",
+  "hash_sort_tie_break": "(digest_hex, image_id)",
+  "global_row_order": "(clean class_id, image_id) ascending lexicographic ID",
+  "wrong_label_mapping": "int(full SHA256 hex,16) modulo 100, indexed into ascending labels excluding clean class; big-endian integer interpretation",
+  "floor_40_percent": "n*40//100, exact integer floor",
+  "request_manifest_order": "ascending global row; R1 membership selected by per-class R1 hash, R2 union of remaining corrupted history and all corrupted E",
+  "per_image_label_version": "Every corrupted requested image begins at version 0 and is corrected once to version 1; R1 and R2 are disjoint",
+  "event_order": ["history_initialized", "before_R1", "after_refresh_R1", "after_R1", "append_E", "before_R2", "after_refresh_R2", "after_R2"],
+  "canonical_json": "UTF-8, ensure_ascii=False, sort_keys=True, separators=(',',':')",
+  "dataset_semantic_digest": "Canonical SHA256 of {class_to_idx, images}; each image excludes absolute path only",
+  "group_semantic_digest": "Canonical SHA256 of the complete group images list, including exact paths/bytes/source hashes",
+  "outcome_dependent_choices": false,
+  "qualification_or_revision_execution": false
+}

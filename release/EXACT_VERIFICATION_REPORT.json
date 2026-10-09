@@ -1,0 +1,43 @@
+{
+  "schema": "exact-lock-verification-report-v1",
+  "validation_date": "2026-10-07",
+  "status": "PASS",
+  "verifier": "verification/verify_exact_locks.py",
+  "verifier_sha256": "be33d3eac806dec459dfb4f3c0a72015cb3f98208b4b4cc1e2b0d3ed8f7335a6",
+  "runtime": "Python standard library only",
+  "imported_files": 109,
+  "ordinary_checks": [
+    "accepted source archive SHA256/bytes identities",
+    "frozen import-manifest identity and all 109 imported file byte hashes",
+    "accepted byte-identical current_core.py SHA256",
+    "CIFAR exact TRAIN reserve/order/4000-1000-1000 split membership",
+    "CIFAR fit/pilot exact identities and disjointness",
+    "CIFAR frozen R1/R2 order and label-version transitions",
+    "CIFAR shared mean/paired025/sample_current evidence and evaluation isolation",
+    "Food exact sixfold ordered image identities and pairwise isolation",
+    "Food A/B/C history-arrival/fit-pilot identities",
+    "Food A/B/C exact corruption/request locks and all label-version transitions",
+    "Food shared semantic evidence receipts and discrete state hashes",
+    "Food encoder qualification fold isolation and accepted Swin-T selection"
+  ],
+  "original_archive_checks": [
+    "all six original SHA256/bytes/CRC",
+    "complete original internal manifest member identities",
+    "every imported byte-identical member equality",
+    "every privacy projection deep equality after deleting only recorded absolute-path string leaves"
+  ],
+  "negative_tampering_rejected": [
+    "CIFAR same-count split reorder",
+    "CIFAR fit/pilot overlap",
+    "CIFAR unrepaired requested label",
+    "CIFAR unequal shared feature receipt",
+    "Food same-count fold identity swap",
+    "Food qualification using a deployment fold",
+    "Food altered correction truth",
+    "Food unequal shared evidence receipt"
+  ],
+  "limits": [
+    "Frozen feature/score receipts are verified without loading externally held numerical payloads. This is not an end-to-end model rerun.",
+    "Food public row fingerprints omit only image path fields; source package/member SHA256 identities preserve provenance of path-bearing originals."
+  ]
+}

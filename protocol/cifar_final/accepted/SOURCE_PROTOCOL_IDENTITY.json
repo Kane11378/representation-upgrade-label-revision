@@ -1,0 +1,75 @@
+{
+  "task": "FASTFILL_FINAL_UNSEEN_PROTOCOL_FREEZE_01",
+  "status": "PASS",
+  "source_files": {
+    "confirmation.py": {
+      "bytes": 23121,
+      "mtime_ns": 1791141942000000000,
+      "sha256": "70c180462e9982668a74a2bb15909eaacec5a99726457bf8ea17fd1246b7e16f"
+    },
+    "source_io.py": {
+      "bytes": 7879,
+      "mtime_ns": 1791141942000000000,
+      "sha256": "a2f2898927caba5a4e45a3c99387f2022606d8f82107de323e939e2f348cc0fe"
+    },
+    "current_core.py": {
+      "bytes": 10800,
+      "mtime_ns": 1791141942000000000,
+      "sha256": "0b28ae97c4fcd65eb901938e06a8642a899e5c32208b239da7b4ac64101d6bd7"
+    },
+    "PLAN.json": {
+      "bytes": 2796,
+      "mtime_ns": 1791141942000000000,
+      "sha256": "b443ed49eb5a962d4afa8c0d6033c91d140b8b609850ccafa27a4b0df5e8feac"
+    }
+  },
+  "successful_code_lock": {
+    "bytes": 354,
+    "mtime_ns": 1791171600077870300,
+    "sha256": "c81b315ee02860eec7d8d3ddd22e7645d0b3b5b432a9141f381c506e79644423"
+  },
+  "recovered_verbatim_evidence": {
+    "bytes": 32949,
+    "mtime_ns": 1791265003617371800,
+    "sha256": "f8da189ee82d3aa103b9cb8d10c2e375010d711dbdcd912f50715510299ddae2"
+  },
+  "initial_observed_label_field": "noisy_label",
+  "benchmark_truth_field": "clean_label == official TRAIN fine_labels",
+  "candidate_current_labels": "initial noisy labels, only requested benchmark labels replace them after release",
+  "full_reference_truth": "current active stage labels, not all-clean history/arrival labels before release",
+  "evaluator_truth": "heldout evaluation clean labels; evaluator-only",
+  "official_TEST_used": false,
+  "request_rule": "permuted history disagreements first floor half at R1; remainder then ascending arrival disagreements at R2",
+  "timeline": [
+    "before_R1",
+    "after_refresh_R1",
+    "after_R1",
+    "append_E",
+    "before_R2",
+    "after_refresh_R2",
+    "after_R2"
+  ],
+  "independent_rng_instances": true,
+  "old_seed_values": {
+    "split": 906501,
+    "pair": [
+      906521,
+      906522,
+      906523
+    ],
+    "request": [
+      906531,
+      906532,
+      906533
+    ]
+  },
+  "new_seed_values": {
+    "split": 907001,
+    "pair": 907001,
+    "request": 907001
+  },
+  "new_seed_mapping_explicit": true,
+  "pool_adaptation": "sorted exact frozen reserve replaces old sorted remaining TRAIN pool; RNG/permutation/slicing unchanged",
+  "label_read_adaptation": "NumPy-only human.pt label member plus proven complete official-clean raw hash; never open TRAIN pickle/image member",
+  "source_modules_imported_or_executed": false
+}

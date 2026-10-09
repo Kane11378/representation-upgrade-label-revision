@@ -1,0 +1,49 @@
+{
+  "best_candidate": "swin_t",
+  "candidate_tie_priority": [
+    "convnext_tiny",
+    "swin_t",
+    "vit_b_16"
+  ],
+  "classes": 101,
+  "encoders": {
+    "convnext_tiny": {
+      "count": 4242,
+      "fold0_accuracy": 0.8783592644978784,
+      "fold0_correct": 3726,
+      "fold1_accuracy": 0.6258840169731259,
+      "fold1_correct": 2655
+    },
+    "resnet18": {
+      "count": 4242,
+      "fold0_accuracy": 0.7512965582272513,
+      "fold0_correct": 3187,
+      "fold1_accuracy": 0.46157472890146156,
+      "fold1_correct": 1958
+    },
+    "swin_t": {
+      "count": 4242,
+      "fold0_accuracy": 0.8795379537953796,
+      "fold0_correct": 3731,
+      "fold1_accuracy": 0.6449787835926449,
+      "fold1_correct": 2736
+    },
+    "vit_b_16": {
+      "count": 4242,
+      "fold0_accuracy": 0.8950966525223951,
+      "fold0_correct": 3797,
+      "fold1_accuracy": 0.6183404054691184,
+      "fold1_correct": 2623
+    }
+  },
+  "evaluation_completed_utc": "2026-10-06T13:50:54.167572+00:00",
+  "evaluation_started_utc": "2026-10-06T13:50:53.883297+00:00",
+  "feature_build_lock_identity": {
+    "bytes": 35989,
+    "sha256": "23cb6f70faf6885367d92d7b81ac37270552559c6e28fca62340a49bddce4102"
+  },
+  "ridge": 1.0,
+  "selected_encoder": "swin_t",
+  "selection_rule": "Integer correct counts / identical denominator 4242; exact candidate tie priority ConvNeXt > Swin > ViT; strict candidate > ResNet18",
+  "status": "FOOD101_ENCODER_UPGRADE_QUALIFIED"
+}

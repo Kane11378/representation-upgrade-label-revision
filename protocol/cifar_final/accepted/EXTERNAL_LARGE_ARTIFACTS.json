@@ -1,0 +1,94 @@
+{
+  "task": "FASTFILL_FINAL_UNSEEN_CONFIRMATION_01",
+  "artifacts": {
+    "features/global_ids": {
+      "bytes": 48128,
+      "sha256": "820c7f3c6aba80bff9484ac4d787ac7a388413c05bd98fa5eff3a30d70971c2e",
+      "semantic": {
+        "dtype": "int64",
+        "shape": [
+          6000
+        ],
+        "c_order_raw_sha256": "13ba29b606fe0ffc7972394b6842f0310b8598fa45115bc5e42263728b1d2c57",
+        "semantic_digest_sha256": "8eb3c1ff2269bb74d46ab5b215b6775c416a5b8c8928fe3d34ee87f3da3cca8a"
+      }
+    },
+    "features/S": {
+      "bytes": 9216128,
+      "sha256": "4af138d998ec8d0323a4d8a8cf0d32e037e9a65c2662683a6b3d88d41b505f46",
+      "semantic": {
+        "dtype": "float32",
+        "shape": [
+          6000,
+          384
+        ],
+        "c_order_raw_sha256": "291f69242cab3d9fa9166140583e5c6943e8d249c0bb513e8c8e9e1de14c34ca",
+        "semantic_digest_sha256": "7ba60787aa91c120c569804a0d57654c3f081c10b20b5b7552172457a4e4a3c7"
+      }
+    },
+    "features/B": {
+      "bytes": 18432128,
+      "sha256": "c4ae159d93562f138e8cceded8e7d3c3619ddd094ed43ee818e59d3dcdc9f334",
+      "semantic": {
+        "dtype": "float32",
+        "shape": [
+          6000,
+          768
+        ],
+        "c_order_raw_sha256": "8accdaf53822e0802a19ebd76b7f4ecc2cf7ec6ebc51248ecb87f6843ae5a22c",
+        "semantic_digest_sha256": "a11c5c667eb8cce874afec56669e9fedd0f81ce4d5ca78c67854d7bb3f6cd875"
+      }
+    },
+    "proxy/proxy": {
+      "bytes": 12288128,
+      "sha256": "d9770476ba289cfeef081e0f222ac2acf14ed4ed0e28e02005764669243ca5a6",
+      "semantic": {
+        "dtype": "float32",
+        "shape": [
+          4000,
+          768
+        ],
+        "c_order_raw_sha256": "b68c764f8f59146faf7eff1ecc9d8fbef2aaa288a257a55a62ebb0efe5b59a14",
+        "semantic_digest_sha256": "a2572348928cd10f5cfbe5c8852a1538b974077e9e6bc72d5bebd150d81f251a"
+      }
+    },
+    "proxy/sigma": {
+      "bytes": 16128,
+      "sha256": "f79350f2495d65337abc69db274622a45b8c68318a56e025cf23f8f565963637",
+      "semantic": {
+        "dtype": "float32",
+        "shape": [
+          4000
+        ],
+        "c_order_raw_sha256": "9fb79a73d91a688f41efead26be8c56c914dae79d9bcac0bbc66246e78298c6a",
+        "semantic_digest_sha256": "052e07536c168056a7ebac4f0528275b92c2c9c322e3082fa409a9223a260c87"
+      }
+    },
+    "audit/DINO_GATE_ARRAYS.npz": {
+      "bytes": 6904223,
+      "sha256": "2afb996a3b6af378be0e5b9a65c3ad89bc324692c89bfeb7ada82066824b5bf6"
+    },
+    "built/HEADS.npz": {
+      "bytes": 10611692,
+      "sha256": "40090d0a30c5eecd82a2f5a0a3edddda8a41531005d1d984fde10f53aa6ce922"
+    },
+    "built/STATES_ARRAYS.npz": {
+      "bytes": 196428277,
+      "sha256": "d94293b804b53fb5064555c325dc9f5a91737b57bfc8632823cf5fc30ccabc8d"
+    },
+    "evaluation/HEADS_FULL.npz": {
+      "bytes": 3537670,
+      "sha256": "75d5f0a8cf92fc39c8a72aa01edca988c34128d97025542bea86feeef4878e2b"
+    },
+    "evaluation/PREDICTIONS.npz": {
+      "bytes": 43081,
+      "sha256": "489421a5c75514a61add962f782775963b83ff232bc0c69ce7a10968216904d8"
+    },
+    "evaluation/SCORES.npz": {
+      "bytes": 18397250,
+      "sha256": "f09fb4bf9cb85052a1a126c8de85262ad04c7a323a4579c9cce1c44763ea1946"
+    }
+  },
+  "retained_locally": true,
+  "note": "Exact local paths/byte identities for features, proxy, states, heads, scores, predictions and sentinel arrays; omitted from light ZIP."
+}

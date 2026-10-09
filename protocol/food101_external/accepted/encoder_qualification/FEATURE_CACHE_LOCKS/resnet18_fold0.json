@@ -1,0 +1,75 @@
+{
+  "access_log": {
+    "bytes": 1494449,
+    "encoder": "resnet18",
+    "fold": 0,
+    "image_count": 4242,
+    "sha256": "69bd498b9e3cc55c9149b7b48a01e813ca6fe48b1619968c1ea4a9ba3bac4cbf"
+  },
+  "arrays": {
+    "features": {
+      "c_order_raw_sha256": "2ca190379ce5f2f52db6777c60873f59e80a16460a22fc238c4b92653ef95e47",
+      "dtype": "<f4",
+      "shape": [
+        4242,
+        512
+      ]
+    },
+    "image_ids": {
+      "c_order_raw_sha256": "1068a3af14947e41e9ec9015ecb1a1a5f71f6e059779bf4f00373b54321ff833",
+      "dtype": "<U64",
+      "shape": [
+        4242
+      ]
+    },
+    "labels": {
+      "c_order_raw_sha256": "3aeab5dc35239b3414241887fd9657cafb3f994bacb4fa0fabfcf37671f4b252",
+      "dtype": "<i8",
+      "shape": [
+        4242
+      ]
+    },
+    "rows": {
+      "c_order_raw_sha256": "0ced7d50f59b68460ee7db7c484be8e36c54ebf781fb1375b0f1091f89a48935",
+      "dtype": "<i8",
+      "shape": [
+        4242
+      ]
+    }
+  },
+  "bytes": 9842444,
+  "created_utc": "2026-10-06T13:28:30.597282+00:00",
+  "encoder": "resnet18",
+  "encoding_wall_seconds": 49.4589059000009,
+  "fold": 0,
+  "hook_definition": "Output of avgpool followed by flatten(start_dim=1), exactly the input to fc.",
+  "hook_module": "fc",
+  "row_norm_max": 1.0000001418247269,
+  "row_norm_min": 0.9999998697140112,
+  "semantic_digest": "a31a74f5b6a72eaee3b25766fa757391528b3d800b604ddb6e708e5d826572e4",
+  "sha256": "3ab2ee2e2d4d8acc4500ec47fcfb8922ed114f11ec8c83016f3730aab1d5ff08",
+  "status": "FEATURE_CACHE_IDENTITY_PASS",
+  "transform": {
+    "antialias": true,
+    "crop_size": [
+      224
+    ],
+    "enum": "ResNet18_Weights.IMAGENET1K_V1",
+    "implementation": "torchvision.transforms._presets.ImageClassification",
+    "interpolation": "BILINEAR",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "resize_size": [
+      256
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth"
+  }
+}

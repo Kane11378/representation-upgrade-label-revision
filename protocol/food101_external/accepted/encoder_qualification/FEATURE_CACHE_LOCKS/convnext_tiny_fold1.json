@@ -1,0 +1,75 @@
+{
+  "access_log": {
+    "bytes": 1494535,
+    "encoder": "convnext_tiny",
+    "fold": 1,
+    "image_count": 4242,
+    "sha256": "90546977e4f4e3f3aa699686e78d4d29e308f6453d8df21e9fe13710132fffaa"
+  },
+  "arrays": {
+    "features": {
+      "c_order_raw_sha256": "283f85c31a83c2383947fcacf068e9aa3e76706b3cee8962d4bf3ef62e91ac6d",
+      "dtype": "<f4",
+      "shape": [
+        4242,
+        768
+      ]
+    },
+    "image_ids": {
+      "c_order_raw_sha256": "f06cac5700703be72e20d9b1031363b11c3420cdbcb9c2984edb556fbb9dff19",
+      "dtype": "<U64",
+      "shape": [
+        4242
+      ]
+    },
+    "labels": {
+      "c_order_raw_sha256": "3aeab5dc35239b3414241887fd9657cafb3f994bacb4fa0fabfcf37671f4b252",
+      "dtype": "<i8",
+      "shape": [
+        4242
+      ]
+    },
+    "rows": {
+      "c_order_raw_sha256": "249ee8fe599ccae69e7845bd10a336c37c773ee3fa1714099e5f9d990a4cedb4",
+      "dtype": "<i8",
+      "shape": [
+        4242
+      ]
+    }
+  },
+  "bytes": 14186252,
+  "created_utc": "2026-10-06T13:33:30.407824+00:00",
+  "encoder": "convnext_tiny",
+  "encoding_wall_seconds": 116.50691059999917,
+  "fold": 1,
+  "hook_definition": "features -> avgpool -> classifier[0] LayerNorm2d -> classifier[1] Flatten; exactly input to classifier[2] Linear.",
+  "hook_module": "classifier.2",
+  "row_norm_max": 1.0000001490119588,
+  "row_norm_min": 0.9999998549257603,
+  "semantic_digest": "3849a72958939aa2f5e9b46a8eaca0bcdf2565128e53ed25d111722064f603d4",
+  "sha256": "1219fccb3898876e52eb060362ae539451a618339f6af6c2315a55eb7cbf87f7",
+  "status": "FEATURE_CACHE_IDENTITY_PASS",
+  "transform": {
+    "antialias": true,
+    "crop_size": [
+      224
+    ],
+    "enum": "ConvNeXt_Tiny_Weights.IMAGENET1K_V1",
+    "implementation": "torchvision.transforms._presets.ImageClassification",
+    "interpolation": "BILINEAR",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "resize_size": [
+      236
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "url": "https://download.pytorch.org/models/convnext_tiny-983f1562.pth"
+  }
+}

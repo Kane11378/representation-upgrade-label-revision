@@ -1,0 +1,98 @@
+{
+  "task": "FASTFILL_FINAL_UNSEEN_PROTOCOL_FREEZE_01",
+  "status": "ALGORITHM_FROZEN_BEFORE_RESERVE_LABEL_ACCESS",
+  "created_at_utc": "2026-10-06T05:46:42.358435+00:00",
+  "files": {
+    "CLAIM_FREEZE.md": {
+      "bytes": 992,
+      "mtime_ns": 1791265602347929000,
+      "sha256": "781e301c7a06fca25202696f4d01ff2ee3ac75fa5bd2330509b459a4e66ca780"
+    },
+    "code/freeze_protocol.py": {
+      "bytes": 17955,
+      "mtime_ns": 1791265433167768400,
+      "sha256": "6c57c156b2bbfd36d7eeda55db6ce12de9d5cb72580e2b20bf69b1e9b426e106"
+    },
+    "code/independent_protocol_audit.py": {
+      "bytes": 31876,
+      "mtime_ns": 1791265528717757700,
+      "sha256": "c7315527a1bedb38966615700f11e2a4877f5492620e4fad2de8ab02de66f0df"
+    },
+    "code/labels_only.py": {
+      "bytes": 3485,
+      "mtime_ns": 1791265047074157400,
+      "sha256": "aa5aa9729b746e31ba6d5b246e0e381e1bea1f904d7ab28d68cce1b7698b4825"
+    },
+    "code/snapshot_old_sources.py": {
+      "bytes": 2420,
+      "mtime_ns": 1791265051049454500,
+      "sha256": "9a8049e753f4463e0b9ad1b7c1f11529cf29c92b426397a5e42a716dcac7e8f4"
+    },
+    "code/verify_reserve_identity.py": {
+      "bytes": 29875,
+      "mtime_ns": 1791265203716659300,
+      "sha256": "1cfb830bc9414210f6ce60feccba7503e8d617388b16f8f2f30fc7587565dd72"
+    },
+    "METHOD_LOCK.json": {
+      "bytes": 1203,
+      "mtime_ns": 1791265602347929000,
+      "sha256": "0b2c01eb339a00193aa2102c5946477f0551699e4278e11f7248c5af9bdf1eae"
+    },
+    "provenance/EXACT_POOL_ADAPTER.diff": {
+      "bytes": 758,
+      "mtime_ns": 1791265602346929300,
+      "sha256": "ed4f66ae96b8563141caa0f5ddc2be477be023699ed3b575fe00fea349145e78"
+    },
+    "provenance/FASTFILL_FINAL_UNSEEN_PROTOCOL_FREEZE_01.md": {
+      "bytes": 5277,
+      "mtime_ns": 1791264801609598100,
+      "sha256": "621eff0926b80a1a1ad2c4d10d5506fff3af3c84da7c37b73dffef1a74ea2e0a"
+    },
+    "provenance/PROTOCOL_SEED_LOCK.json": {
+      "bytes": 868,
+      "mtime_ns": 1791264967528676800,
+      "sha256": "aea9a2a47e0e43627060c3ee57b843f825eaeb3ad6fddb15350b805c982fde24"
+    },
+    "provenance/RECOVERED_906_SOURCE_PROTOCOL.json": {
+      "bytes": 32949,
+      "mtime_ns": 1791265003617371800,
+      "sha256": "f8da189ee82d3aa103b9cb8d10c2e375010d711dbdcd912f50715510299ddae2"
+    },
+    "provenance/REPOSITORY_LOCK.json": {
+      "bytes": 671,
+      "mtime_ns": 1791265433659156700,
+      "sha256": "90ba9d9c98fff27f494692301fa080c6ff6785b12945980444b4489eeed7cf59"
+    },
+    "SOURCE_PROTOCOL_IDENTITY.json": {
+      "bytes": 3381,
+      "mtime_ns": 1791265602340347100,
+      "sha256": "b24c65fc502a6ee0074f2ec851fc9c004c181ce17173e24ce874536f51a7d1f6"
+    }
+  },
+  "seed_lock": {
+    "bytes": 868,
+    "mtime_ns": 1791264967528676800,
+    "sha256": "aea9a2a47e0e43627060c3ee57b843f825eaeb3ad6fddb15350b805c982fde24"
+  },
+  "seeds": {
+    "split": 907001,
+    "request": 907001,
+    "pair": 907001
+  },
+  "counts": {
+    "history": 4000,
+    "arrival_E": 1000,
+    "evaluation": 1000,
+    "fit": 512,
+    "pilot": 512
+  },
+  "old_source_hashes": {
+    "confirmation.py": "70c180462e9982668a74a2bb15909eaacec5a99726457bf8ea17fd1246b7e16f",
+    "source_io.py": "a2f2898927caba5a4e45a3c99387f2022606d8f82107de323e939e2f348cc0fe",
+    "current_core.py": "0b28ae97c4fcd65eb901938e06a8642a899e5c32208b239da7b4ac64101d6bd7",
+    "PLAN.json": "b443ed49eb5a962d4afa8c0d6033c91d140b8b609850ccafa27a4b0df5e8feac"
+  },
+  "reserve_label_arrays_read": false,
+  "reserve_label_or_request_statistics_generated": false,
+  "performance_read": false
+}

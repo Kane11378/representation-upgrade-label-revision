@@ -1,0 +1,971 @@
+{
+  "blocked_platform_probes": [
+    {
+      "actual_execution": false,
+      "classification": "WINDOWS_PLATFORM_VERSION_METADATA_PROBE",
+      "cwd": null,
+      "denied": true,
+      "event": "subprocess.Popen",
+      "stack": [
+        {
+          "function": "audit",
+          "line": 149
+        },
+        {
+          "function": "_execute_child",
+          "line": 1534
+        },
+        {
+          "function": "__init__",
+          "line": 1026
+        },
+        {
+          "function": "run",
+          "line": 548
+        },
+        {
+          "function": "check_output",
+          "line": 466
+        },
+        {
+          "function": "_syscmd_ver",
+          "line": 283
+        },
+        {
+          "function": "_win32_ver",
+          "line": 414
+        },
+        {
+          "function": "win32_ver",
+          "line": 450
+        },
+        {
+          "function": "uname",
+          "line": 922
+        },
+        {
+          "function": "machine",
+          "line": 1024
+        },
+        {
+          "function": "_load_dll_libraries",
+          "line": 268
+        },
+        {
+          "function": "<module>",
+          "line": 309
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "function": "_call_with_frames_removed",
+          "line": 488
+        },
+        {
+          "file": "<frozen importlib._bootstrap_external>",
+          "function": "exec_module",
+          "line": 999
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "function": "_load_unlocked",
+          "line": 935
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "function": "_find_and_load_unlocked",
+          "line": 1331
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "function": "_find_and_load",
+          "line": 1360
+        },
+        {
+          "function": "import_runtime",
+          "line": 200
+        },
+        {
+          "function": "runtime_check",
+          "line": 236
+        },
+        {
+          "function": "build",
+          "line": 557
+        },
+        {
+          "function": "main",
+          "line": 636
+        },
+        {
+          "function": "<module>",
+          "line": 640
+        }
+      ],
+      "utc": "2026-10-06T14:44:48.804897+00:00"
+    },
+    {
+      "actual_execution": false,
+      "classification": "WINDOWS_PLATFORM_VERSION_METADATA_PROBE",
+      "cwd": null,
+      "denied": true,
+      "event": "subprocess.Popen",
+      "stack": [
+        {
+          "function": "audit",
+          "line": 149
+        },
+        {
+          "function": "_execute_child",
+          "line": 1534
+        },
+        {
+          "function": "__init__",
+          "line": 1026
+        },
+        {
+          "function": "run",
+          "line": 548
+        },
+        {
+          "function": "check_output",
+          "line": 466
+        },
+        {
+          "function": "_syscmd_ver",
+          "line": 283
+        },
+        {
+          "function": "_win32_ver",
+          "line": 414
+        },
+        {
+          "function": "win32_ver",
+          "line": 450
+        },
+        {
+          "function": "uname",
+          "line": 922
+        },
+        {
+          "function": "machine",
+          "line": 1024
+        },
+        {
+          "function": "_load_dll_libraries",
+          "line": 268
+        },
+        {
+          "function": "<module>",
+          "line": 309
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "function": "_call_with_frames_removed",
+          "line": 488
+        },
+        {
+          "file": "<frozen importlib._bootstrap_external>",
+          "function": "exec_module",
+          "line": 999
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "function": "_load_unlocked",
+          "line": 935
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "function": "_find_and_load_unlocked",
+          "line": 1331
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "function": "_find_and_load",
+          "line": 1360
+        },
+        {
+          "function": "import_runtime",
+          "line": 200
+        },
+        {
+          "function": "runtime_check",
+          "line": 236
+        },
+        {
+          "function": "build",
+          "line": 557
+        },
+        {
+          "function": "main",
+          "line": 636
+        },
+        {
+          "function": "<module>",
+          "line": 640
+        }
+      ],
+      "utc": "2026-10-06T14:44:48.810406+00:00"
+    },
+    {
+      "actual_execution": false,
+      "classification": "WINDOWS_PLATFORM_VERSION_METADATA_PROBE",
+      "cwd": null,
+      "denied": true,
+      "event": "subprocess.Popen",
+      "stack": [
+        {
+          "function": "audit",
+          "line": 149
+        },
+        {
+          "function": "_execute_child",
+          "line": 1534
+        },
+        {
+          "function": "__init__",
+          "line": 1026
+        },
+        {
+          "function": "run",
+          "line": 548
+        },
+        {
+          "function": "check_output",
+          "line": 466
+        },
+        {
+          "function": "_syscmd_ver",
+          "line": 283
+        },
+        {
+          "function": "_win32_ver",
+          "line": 414
+        },
+        {
+          "function": "win32_ver",
+          "line": 450
+        },
+        {
+          "function": "uname",
+          "line": 922
+        },
+        {
+          "function": "machine",
+          "line": 1024
+        },
+        {
+          "function": "_load_dll_libraries",
+          "line": 268
+        },
+        {
+          "function": "<module>",
+          "line": 309
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "function": "_call_with_frames_removed",
+          "line": 488
+        },
+        {
+          "file": "<frozen importlib._bootstrap_external>",
+          "function": "exec_module",
+          "line": 999
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "function": "_load_unlocked",
+          "line": 935
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "function": "_find_and_load_unlocked",
+          "line": 1331
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "function": "_find_and_load",
+          "line": 1360
+        },
+        {
+          "function": "import_runtime",
+          "line": 200
+        },
+        {
+          "function": "runtime_check",
+          "line": 236
+        },
+        {
+          "function": "build",
+          "line": 557
+        },
+        {
+          "function": "main",
+          "line": 636
+        },
+        {
+          "function": "<module>",
+          "line": 640
+        }
+      ],
+      "utc": "2026-10-06T14:44:48.814910+00:00"
+    }
+  ],
+  "caches": {
+    "resnet18_fold2": {
+      "access_log": {
+        "bytes": 1494397,
+        "encoder": "resnet18",
+        "fold": 2,
+        "image_count": 4242,
+        "sha256": "e32385fa81a1eb5349af19da6cf8c1c8bf1be9573e7e0cfab00b458f3a404164"
+      },
+      "arrays": {
+        "features": {
+          "c_order_raw_sha256": "b71c91d21bb1256a5454a52040be70775eb2729b7f5c25a875d4e28f9fdf277e",
+          "dtype": "<f4",
+          "shape": [
+            4242,
+            512
+          ]
+        },
+        "image_ids": {
+          "c_order_raw_sha256": "553d5c35802a90438f064e20c51014d5ac39f9e2b5896f7e1a3273595171a584",
+          "dtype": "<U64",
+          "shape": [
+            4242
+          ]
+        },
+        "labels": {
+          "c_order_raw_sha256": "3aeab5dc35239b3414241887fd9657cafb3f994bacb4fa0fabfcf37671f4b252",
+          "dtype": "<i8",
+          "shape": [
+            4242
+          ]
+        },
+        "rows": {
+          "c_order_raw_sha256": "e590238beed351ad8cf6d036a5625c9c456c0e71957c7aafa2ee745f1a4ab674",
+          "dtype": "<i8",
+          "shape": [
+            4242
+          ]
+        }
+      },
+      "bytes": 9842444,
+      "created_utc": "2026-10-06T14:45:54.129938+00:00",
+      "encoder": "resnet18",
+      "encoding_wall_seconds": 51.38104249999742,
+      "fold": 2,
+      "hook_definition": "Output of avgpool followed by flatten(start_dim=1), exactly the input to fc.",
+      "hook_module": "fc",
+      "row_norm_max": 1.0000001283624604,
+      "row_norm_min": 0.9999998560439994,
+      "semantic_digest": "071531df438de7b6bf8b1398af13c5b925aa5c047d655eec498d272a53108b1b",
+      "sha256": "312e43fd43c13fd42edd8c9df9381a5c0d00923f1e265e53f1ddcc58acd65e3f",
+      "status": "FEATURE_CACHE_IDENTITY_PASS",
+      "transform": {
+        "antialias": true,
+        "crop_size": [
+          224
+        ],
+        "enum": "ResNet18_Weights.IMAGENET1K_V1",
+        "implementation": "torchvision.transforms._presets.ImageClassification",
+        "interpolation": "BILINEAR",
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "resize_size": [
+          256
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth"
+      }
+    },
+    "resnet18_fold3": {
+      "access_log": {
+        "bytes": 1494507,
+        "encoder": "resnet18",
+        "fold": 3,
+        "image_count": 4242,
+        "sha256": "89a6488fdb13c066666ba399de75b9cfedb0dc6d419dc974ca12aa484ee56737"
+      },
+      "arrays": {
+        "features": {
+          "c_order_raw_sha256": "194f5b3cb2d5ee799a974b2bb2c254aeed0f3a5339533d9caf42b635904d5760",
+          "dtype": "<f4",
+          "shape": [
+            4242,
+            512
+          ]
+        },
+        "image_ids": {
+          "c_order_raw_sha256": "dd6a6fe0bdc05cd6d9f79fa98d90b332b0311e7b799b3fffdc8879912cce9e52",
+          "dtype": "<U64",
+          "shape": [
+            4242
+          ]
+        },
+        "labels": {
+          "c_order_raw_sha256": "3aeab5dc35239b3414241887fd9657cafb3f994bacb4fa0fabfcf37671f4b252",
+          "dtype": "<i8",
+          "shape": [
+            4242
+          ]
+        },
+        "rows": {
+          "c_order_raw_sha256": "13cdf5c56d5d358c3d0ab8424e83099999de1aa87dbaacfcea9fc67b839ba5f3",
+          "dtype": "<i8",
+          "shape": [
+            4242
+          ]
+        }
+      },
+      "bytes": 9842444,
+      "created_utc": "2026-10-06T14:46:50.800272+00:00",
+      "encoder": "resnet18",
+      "encoding_wall_seconds": 51.40660139999818,
+      "fold": 3,
+      "hook_definition": "Output of avgpool followed by flatten(start_dim=1), exactly the input to fc.",
+      "hook_module": "fc",
+      "row_norm_max": 1.0000001347045528,
+      "row_norm_min": 0.9999998719386101,
+      "semantic_digest": "a00b8dcce10cb4a3dc297e056c5ae1e8e16ce2103d1de6a1288ec14453365e4e",
+      "sha256": "10c1d5cd0a033c369189063422e6af232db18d04ec9195af87123b0eaaf91e0c",
+      "status": "FEATURE_CACHE_IDENTITY_PASS",
+      "transform": {
+        "antialias": true,
+        "crop_size": [
+          224
+        ],
+        "enum": "ResNet18_Weights.IMAGENET1K_V1",
+        "implementation": "torchvision.transforms._presets.ImageClassification",
+        "interpolation": "BILINEAR",
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "resize_size": [
+          256
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth"
+      }
+    },
+    "resnet18_fold4": {
+      "access_log": {
+        "bytes": 1458785,
+        "encoder": "resnet18",
+        "fold": 4,
+        "image_count": 4141,
+        "sha256": "0718824e730a67928035583fbd9473cf4c6074c3c70e985dbd49390caa5149d0"
+      },
+      "arrays": {
+        "features": {
+          "c_order_raw_sha256": "f1fa1ea45ff71483dd3f6d7e49dd9c31c8540a6cf75045207fe2f212a67379b0",
+          "dtype": "<f4",
+          "shape": [
+            4141,
+            512
+          ]
+        },
+        "image_ids": {
+          "c_order_raw_sha256": "4a2d2de42602613ae9d9e32493f84a3092f09a1c3d837e7509e6c210fb377dad",
+          "dtype": "<U64",
+          "shape": [
+            4141
+          ]
+        },
+        "labels": {
+          "c_order_raw_sha256": "4f7657b47153db465c5377c04529f3dbf4e2b81d1a0b1e847e488f97da5ac499",
+          "dtype": "<i8",
+          "shape": [
+            4141
+          ]
+        },
+        "rows": {
+          "c_order_raw_sha256": "6ecef45f8944ecb84fd135aeca5ddf23fb89e01b3f8311ce7763a0836ff86867",
+          "dtype": "<i8",
+          "shape": [
+            4141
+          ]
+        }
+      },
+      "bytes": 9608124,
+      "created_utc": "2026-10-06T14:47:46.133287+00:00",
+      "encoder": "resnet18",
+      "encoding_wall_seconds": 50.23933810000017,
+      "fold": 4,
+      "hook_definition": "Output of avgpool followed by flatten(start_dim=1), exactly the input to fc.",
+      "hook_module": "fc",
+      "row_norm_max": 1.0000001362891786,
+      "row_norm_min": 0.9999998583919633,
+      "semantic_digest": "13f1caf7fbb443a4dd1698c790918bac94b941e9848a37133e67c747a495784f",
+      "sha256": "a9e7288b01323ec83328388bd97c0d9568b152e0be1ca37e52b43086c5198f1b",
+      "status": "FEATURE_CACHE_IDENTITY_PASS",
+      "transform": {
+        "antialias": true,
+        "crop_size": [
+          224
+        ],
+        "enum": "ResNet18_Weights.IMAGENET1K_V1",
+        "implementation": "torchvision.transforms._presets.ImageClassification",
+        "interpolation": "BILINEAR",
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "resize_size": [
+          256
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth"
+      }
+    },
+    "resnet18_fold5": {
+      "access_log": {
+        "bytes": 1458903,
+        "encoder": "resnet18",
+        "fold": 5,
+        "image_count": 4141,
+        "sha256": "f6a35ecc335e52ad9c289d5cfa99bde4a461cf7b702e6a56b5131b92921e48be"
+      },
+      "arrays": {
+        "features": {
+          "c_order_raw_sha256": "d359ba0efdae09fc90835a8799f69b019031c199ee89f2dab0a745745b768a94",
+          "dtype": "<f4",
+          "shape": [
+            4141,
+            512
+          ]
+        },
+        "image_ids": {
+          "c_order_raw_sha256": "4f061f2c19317720aabe410adc2c000b346893c7c286edddfd3327cc02ba2615",
+          "dtype": "<U64",
+          "shape": [
+            4141
+          ]
+        },
+        "labels": {
+          "c_order_raw_sha256": "4f7657b47153db465c5377c04529f3dbf4e2b81d1a0b1e847e488f97da5ac499",
+          "dtype": "<i8",
+          "shape": [
+            4141
+          ]
+        },
+        "rows": {
+          "c_order_raw_sha256": "1995c74184d6dbfc7ed7ae7a762ad4be231f6db2fcec50d15b1be619f62cea2c",
+          "dtype": "<i8",
+          "shape": [
+            4141
+          ]
+        }
+      },
+      "bytes": 9608124,
+      "created_utc": "2026-10-06T14:48:40.895265+00:00",
+      "encoder": "resnet18",
+      "encoding_wall_seconds": 49.72502899999745,
+      "fold": 5,
+      "hook_definition": "Output of avgpool followed by flatten(start_dim=1), exactly the input to fc.",
+      "hook_module": "fc",
+      "row_norm_max": 1.0000001540450016,
+      "row_norm_min": 0.9999998725705829,
+      "semantic_digest": "927e56eb87ac29de05e3e86eb6c2b3db80484f1c4460e0d84db950d8cf597a91",
+      "sha256": "13e00c0320275b8fee4d547b9d66601fb14730aac9104d565bae3a4511424ecf",
+      "status": "FEATURE_CACHE_IDENTITY_PASS",
+      "transform": {
+        "antialias": true,
+        "crop_size": [
+          224
+        ],
+        "enum": "ResNet18_Weights.IMAGENET1K_V1",
+        "implementation": "torchvision.transforms._presets.ImageClassification",
+        "interpolation": "BILINEAR",
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "resize_size": [
+          256
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth"
+      }
+    },
+    "swin_t_fold2": {
+      "access_log": {
+        "bytes": 1494395,
+        "encoder": "swin_t",
+        "fold": 2,
+        "image_count": 4242,
+        "sha256": "ee7a10f11e6384aa6b0015d8ac1209ab5bbc6b0fa97a930cb71379258c9fe801"
+      },
+      "arrays": {
+        "features": {
+          "c_order_raw_sha256": "45bde2cfab50fadfb714421f5825b6c814e53303705341dc97aae2911f5c1d18",
+          "dtype": "<f4",
+          "shape": [
+            4242,
+            768
+          ]
+        },
+        "image_ids": {
+          "c_order_raw_sha256": "553d5c35802a90438f064e20c51014d5ac39f9e2b5896f7e1a3273595171a584",
+          "dtype": "<U64",
+          "shape": [
+            4242
+          ]
+        },
+        "labels": {
+          "c_order_raw_sha256": "3aeab5dc35239b3414241887fd9657cafb3f994bacb4fa0fabfcf37671f4b252",
+          "dtype": "<i8",
+          "shape": [
+            4242
+          ]
+        },
+        "rows": {
+          "c_order_raw_sha256": "e590238beed351ad8cf6d036a5625c9c456c0e71957c7aafa2ee745f1a4ab674",
+          "dtype": "<i8",
+          "shape": [
+            4242
+          ]
+        }
+      },
+      "bytes": 14186252,
+      "created_utc": "2026-10-06T14:51:01.566450+00:00",
+      "encoder": "swin_t",
+      "encoding_wall_seconds": 135.06398099999933,
+      "fold": 2,
+      "hook_definition": "features -> norm -> permute(BHWC to BCHW) -> avgpool -> flatten; exactly input to head Linear.",
+      "hook_module": "head",
+      "row_norm_max": 1.000000153420407,
+      "row_norm_min": 0.9999998305833564,
+      "semantic_digest": "482f0c06870be64d08d4a579756f169289fc458519fe4b96dc08cf31f8888fc6",
+      "sha256": "875e05bf89c92eb256430388e5799dbd1718121b171ec93f024640fbbc217b2c",
+      "status": "FEATURE_CACHE_IDENTITY_PASS",
+      "transform": {
+        "antialias": true,
+        "crop_size": [
+          224
+        ],
+        "enum": "Swin_T_Weights.IMAGENET1K_V1",
+        "implementation": "torchvision.transforms._presets.ImageClassification",
+        "interpolation": "BICUBIC",
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "resize_size": [
+          232
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "url": "https://download.pytorch.org/models/swin_t-704ceda3.pth"
+      }
+    },
+    "swin_t_fold3": {
+      "access_log": {
+        "bytes": 1494505,
+        "encoder": "swin_t",
+        "fold": 3,
+        "image_count": 4242,
+        "sha256": "dc9f9a7601e4b19f0493ae685c779a2a1db2891a7b13f8dc417f41a4d839e1ce"
+      },
+      "arrays": {
+        "features": {
+          "c_order_raw_sha256": "dd1cdbee8ac7cbd9df789887fa350d844877d966ab19ec41b06468df592df62e",
+          "dtype": "<f4",
+          "shape": [
+            4242,
+            768
+          ]
+        },
+        "image_ids": {
+          "c_order_raw_sha256": "dd6a6fe0bdc05cd6d9f79fa98d90b332b0311e7b799b3fffdc8879912cce9e52",
+          "dtype": "<U64",
+          "shape": [
+            4242
+          ]
+        },
+        "labels": {
+          "c_order_raw_sha256": "3aeab5dc35239b3414241887fd9657cafb3f994bacb4fa0fabfcf37671f4b252",
+          "dtype": "<i8",
+          "shape": [
+            4242
+          ]
+        },
+        "rows": {
+          "c_order_raw_sha256": "13cdf5c56d5d358c3d0ab8424e83099999de1aa87dbaacfcea9fc67b839ba5f3",
+          "dtype": "<i8",
+          "shape": [
+            4242
+          ]
+        }
+      },
+      "bytes": 14186252,
+      "created_utc": "2026-10-06T14:53:21.594074+00:00",
+      "encoder": "swin_t",
+      "encoding_wall_seconds": 134.70784249999997,
+      "fold": 3,
+      "hook_definition": "features -> norm -> permute(BHWC to BCHW) -> avgpool -> flatten; exactly input to head Linear.",
+      "hook_module": "head",
+      "row_norm_max": 1.0000001510563281,
+      "row_norm_min": 0.999999856648671,
+      "semantic_digest": "c1f9d5258ff6946f744cc230e5f84442e04b04152c70c907430d0fd26ff6897a",
+      "sha256": "734c34eea1c45f2994d78870aa8e9049312467938b5d0ac66f7d89296c46f170",
+      "status": "FEATURE_CACHE_IDENTITY_PASS",
+      "transform": {
+        "antialias": true,
+        "crop_size": [
+          224
+        ],
+        "enum": "Swin_T_Weights.IMAGENET1K_V1",
+        "implementation": "torchvision.transforms._presets.ImageClassification",
+        "interpolation": "BICUBIC",
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "resize_size": [
+          232
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "url": "https://download.pytorch.org/models/swin_t-704ceda3.pth"
+      }
+    },
+    "swin_t_fold4": {
+      "access_log": {
+        "bytes": 1458783,
+        "encoder": "swin_t",
+        "fold": 4,
+        "image_count": 4141,
+        "sha256": "7df6b99308b17641a718d120219509e9403d736ca6a77eac2152b1c5c1cab8ec"
+      },
+      "arrays": {
+        "features": {
+          "c_order_raw_sha256": "132b3ee735b805268cb429d27cddf521ff016e6109942ce5d39726f3470d365f",
+          "dtype": "<f4",
+          "shape": [
+            4141,
+            768
+          ]
+        },
+        "image_ids": {
+          "c_order_raw_sha256": "4a2d2de42602613ae9d9e32493f84a3092f09a1c3d837e7509e6c210fb377dad",
+          "dtype": "<U64",
+          "shape": [
+            4141
+          ]
+        },
+        "labels": {
+          "c_order_raw_sha256": "4f7657b47153db465c5377c04529f3dbf4e2b81d1a0b1e847e488f97da5ac499",
+          "dtype": "<i8",
+          "shape": [
+            4141
+          ]
+        },
+        "rows": {
+          "c_order_raw_sha256": "6ecef45f8944ecb84fd135aeca5ddf23fb89e01b3f8311ce7763a0836ff86867",
+          "dtype": "<i8",
+          "shape": [
+            4141
+          ]
+        }
+      },
+      "bytes": 13848508,
+      "created_utc": "2026-10-06T14:55:39.096038+00:00",
+      "encoder": "swin_t",
+      "encoding_wall_seconds": 132.4657421999982,
+      "fold": 4,
+      "hook_definition": "features -> norm -> permute(BHWC to BCHW) -> avgpool -> flatten; exactly input to head Linear.",
+      "hook_module": "head",
+      "row_norm_max": 1.000000136933053,
+      "row_norm_min": 0.9999998661382759,
+      "semantic_digest": "a62706afc50a065eb5f5e87ba52908a51e52841a69ffb67ece9a690b090508a7",
+      "sha256": "31cf6b041659b9e7aa482e221b8ddcfcd835f8edd4d9b97e1de65a545b9f1f82",
+      "status": "FEATURE_CACHE_IDENTITY_PASS",
+      "transform": {
+        "antialias": true,
+        "crop_size": [
+          224
+        ],
+        "enum": "Swin_T_Weights.IMAGENET1K_V1",
+        "implementation": "torchvision.transforms._presets.ImageClassification",
+        "interpolation": "BICUBIC",
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "resize_size": [
+          232
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "url": "https://download.pytorch.org/models/swin_t-704ceda3.pth"
+      }
+    },
+    "swin_t_fold5": {
+      "access_log": {
+        "bytes": 1458901,
+        "encoder": "swin_t",
+        "fold": 5,
+        "image_count": 4141,
+        "sha256": "a7df39fd54dd2971ff0dafebb88c8b9359fd2fa1b0a822475ec955a82a3558fb"
+      },
+      "arrays": {
+        "features": {
+          "c_order_raw_sha256": "5e84a17d91f10a5aa8d08fabe740721754afa2711dc0983888ce4b3b21710eff",
+          "dtype": "<f4",
+          "shape": [
+            4141,
+            768
+          ]
+        },
+        "image_ids": {
+          "c_order_raw_sha256": "4f061f2c19317720aabe410adc2c000b346893c7c286edddfd3327cc02ba2615",
+          "dtype": "<U64",
+          "shape": [
+            4141
+          ]
+        },
+        "labels": {
+          "c_order_raw_sha256": "4f7657b47153db465c5377c04529f3dbf4e2b81d1a0b1e847e488f97da5ac499",
+          "dtype": "<i8",
+          "shape": [
+            4141
+          ]
+        },
+        "rows": {
+          "c_order_raw_sha256": "1995c74184d6dbfc7ed7ae7a762ad4be231f6db2fcec50d15b1be619f62cea2c",
+          "dtype": "<i8",
+          "shape": [
+            4141
+          ]
+        }
+      },
+      "bytes": 13848508,
+      "created_utc": "2026-10-06T14:57:58.134770+00:00",
+      "encoder": "swin_t",
+      "encoding_wall_seconds": 133.7260896000007,
+      "fold": 5,
+      "hook_definition": "features -> norm -> permute(BHWC to BCHW) -> avgpool -> flatten; exactly input to head Linear.",
+      "hook_module": "head",
+      "row_norm_max": 1.0000001442900293,
+      "row_norm_min": 0.9999998652811161,
+      "semantic_digest": "1ee0a27559edd9697fbdcd4c19259efd684762291bff4f3ccb3b43a93d285ccf",
+      "sha256": "39161a9638b1ab9c08f38caa1ef534193a165a6855fd4569889257219f02b774",
+      "status": "FEATURE_CACHE_IDENTITY_PASS",
+      "transform": {
+        "antialias": true,
+        "crop_size": [
+          224
+        ],
+        "enum": "Swin_T_Weights.IMAGENET1K_V1",
+        "implementation": "torchvision.transforms._presets.ImageClassification",
+        "interpolation": "BICUBIC",
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "resize_size": [
+          232
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "url": "https://download.pytorch.org/models/swin_t-704ceda3.pth"
+      }
+    }
+  },
+  "created_utc": "2026-10-06T14:58:38.517432+00:00",
+  "data_lock_identity": {
+    "bytes": 8363013,
+    "sha256": "0190fe769f6978727b2f0838155e5e4b1b2dbcd0769ccb9964acb46f30f145ae"
+  },
+  "deployment_folds": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "encoders": [
+    "resnet18",
+    "swin_t"
+  ],
+  "execution_source_lock_identity": {
+    "bytes": 17485,
+    "sha256": "95493178cc8c90752899aefdcba1de8867886b99948628b6a735596bd9048b35"
+  },
+  "fold_counts": {
+    "2": 4242,
+    "3": 4242,
+    "4": 4141,
+    "5": 4141
+  },
+  "forbidden_attempts": [],
+  "logical_candidate_target_acquisitions": 0,
+  "no_frontend_fit_or_performance_during_encoding": true,
+  "physical_feature_cache_creation_only": true,
+  "prerequisite_gate_identities": {
+    "PROCRUSTES_SOURCE_GATE.json": {
+      "bytes": 75751,
+      "sha256": "09f3ab63170feea6a3e815658ec1588a2d13fcd11f9a1059df3f8f4e60373bff"
+    },
+    "PROTOCOL_GATE.json": {
+      "bytes": 3973,
+      "sha256": "06ce4098ce9de680673963d7af53913f043b28e4c003c25c7fb6cbc36f8a5d45"
+    },
+    "QUALIFICATION_GATE.json": {
+      "bytes": 23214,
+      "sha256": "c97a45a9e8309d608f2b8bdf4dc7f3f961b3094e4a2abcf93428b590e1524a31"
+    }
+  },
+  "protocol_gate_identity": {
+    "bytes": 3973,
+    "sha256": "06ce4098ce9de680673963d7af53913f043b28e4c003c25c7fb6cbc36f8a5d45"
+  },
+  "runtime_gate_identity": {
+    "bytes": 18649,
+    "sha256": "e695efeb88641ad147470a2ac9cded3b55ff53bdc43a18f8b72d3db4e9157fca"
+  },
+  "status": "ALL_EIGHT_DEPLOYMENT_FEATURE_CACHES_FROZEN_BEFORE_FRONTEND_OR_PERFORMANCE",
+  "weight_identity": {
+    "bytes": 1739,
+    "sha256": "15194f23d0c4ea16d29a03e551221ee4bddd8b4f76cf063fda1b5d11e99157f2"
+  }
+}

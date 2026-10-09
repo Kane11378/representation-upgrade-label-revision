@@ -1,0 +1,41 @@
+{
+  "status": "FROZEN",
+  "created_utc": "2026-10-06T12:43:25.139302+00:00",
+  "study": "Food101 clean test controlled historical label correction; independent of closed GTSRB branch",
+  "independent_of_GTSRB_outcomes": true,
+  "official_food101_train_used": false,
+  "condition_before_revision": "A frozen candidate must qualify on fold0->fold1, with selected new accuracy strictly greater than old; otherwise permanently stop",
+  "primary": {
+    "metric": "response_rel",
+    "methods": [
+      "mean",
+      "paired025"
+    ],
+    "streams": [
+      "A",
+      "B",
+      "C"
+    ],
+    "requests": [
+      "R1",
+      "R2"
+    ],
+    "aggregation": "Arithmetic mean across A/B/C separately for each request",
+    "success": "paired average < mean average for R1 AND paired average < mean average for R2",
+    "all_six_directions_reported": true,
+    "independent_replicate_pvalues": false
+  },
+  "secondary": [
+    "composed-action fidelity",
+    "stage score RMS",
+    "accuracy",
+    "frontend qualification",
+    "candidate target-feature access"
+  ],
+  "only_evaluator_fold": 5,
+  "stream_internal_evaluator": false,
+  "candidate_selection_from_revision_response": false,
+  "outcome_driven_reallocation": false,
+  "performance_computed_in_this_task": false,
+  "automatic_encoder_qualification": false
+}

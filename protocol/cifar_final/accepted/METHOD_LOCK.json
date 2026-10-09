@@ -1,0 +1,41 @@
+{
+  "task": "FASTFILL_FINAL_UNSEEN_PROTOCOL_FREEZE_01",
+  "status": "FROZEN",
+  "prospective_only": true,
+  "executed": false,
+  "frontend": {
+    "name": "normalized FastFill epoch79",
+    "checkpoint_sha256": "0ac692e1e9dd0994e89a3f40fbc165a34cd097503ded8ac56cea0249712538f8",
+    "checkpoint_loaded": false,
+    "checkpoint_forward": false,
+    "retrain": false,
+    "post_normalization": false,
+    "pilot_bias": false
+  },
+  "backend": {
+    "methods": [
+      "mean",
+      "paired025"
+    ],
+    "alpha": 0.25,
+    "ridge": 1,
+    "shrink": 0.1,
+    "current_core_sha256": "0b28ae97c4fcd65eb901938e06a8642a899e5c32208b239da7b4ac64101d6bd7",
+    "current_core_executed": false
+  },
+  "controls": {
+    "sample_current": true,
+    "full_target_ridge": "evaluator-only"
+  },
+  "evidence": {
+    "fit": 512,
+    "pilot": 512,
+    "common": true,
+    "sigma_selection": false,
+    "label_disagreement_selection": false,
+    "request_identity_selection": false
+  },
+  "candidate_label_boundary": "active noisy labels plus only request-provider releases; clean eval truth is evaluator-only",
+  "additional_methods_or_hybrid_combinations_allowed": false,
+  "additional_streams_or_seeds_allowed": false
+}

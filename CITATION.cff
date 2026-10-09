@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility artifact, please cite the associated manuscript and this software artifact."
+title: "Representation Upgrade and Label Revision Reproducibility Artifact"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Kang
+    orcid: "https://orcid.org/0009-0006-7727-1214"
+    affiliation: "College of Finance and Economics, Taiyuan University of Technology, Taiyuan 030024, Shanxi, China"
+version: "1.0.1"
+date-released: 2026-10-10
+keywords:
+  - model update
+  - representation upgrade
+  - label revision
+  - reproducibility
+  - classifier maintenance
+repository-code: "https://github.com/Kane11378/representation-upgrade-label-revision"
+url: "https://github.com/Kane11378/representation-upgrade-label-revision/tree/v1.0.1"
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "When More Faithful Label Corrections Look Worse: Diagnosing Classifier Maintenance after Representation Upgrades"
+  authors:
+    - family-names: Wang
+      given-names: Kang
+      orcid: "https://orcid.org/0009-0006-7727-1214"

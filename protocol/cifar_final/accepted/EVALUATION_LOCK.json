@@ -1,0 +1,62 @@
+{
+  "task": "FASTFILL_FINAL_UNSEEN_CONFIRMATION_01",
+  "status": "COMPLETE_ONE_SHOT",
+  "files": {
+    "PRIMARY_RESULT.json": {
+      "bytes": 939,
+      "sha256": "09639c4ad3cd3f5ad10de43ad94f1c105879594097601eda50a5b0835671bdca"
+    },
+    "FRONTEND_QUALIFICATION.json": {
+      "bytes": 62252,
+      "sha256": "16ba6dbfb50b889597fe952f9cab19ae70529a91ea2e42151ce4b5109cc89604"
+    },
+    "FRONTEND_QUALIFICATION.csv": {
+      "bytes": 456,
+      "sha256": "90a069d827e7cbc2ace1f067f1d46d384fc516a3c539354f360739854f7a0062"
+    },
+    "STAGE_METRICS.csv": {
+      "bytes": 1679,
+      "sha256": "2c6977113161503c4dbb4687afd7bb50e985a6b85db15e59cc60c5906a207d28"
+    },
+    "EVENTS_ALL.csv": {
+      "bytes": 1679,
+      "sha256": "2c6977113161503c4dbb4687afd7bb50e985a6b85db15e59cc60c5906a207d28"
+    },
+    "REQUESTS_ALL.csv": {
+      "bytes": 1156,
+      "sha256": "3cbc5ee9c0d1ed07e63c4920ae94df34a63af0a515b51cc9ebdc173526520765"
+    },
+    "COST_ACCOUNTING.json": {
+      "bytes": 7153,
+      "sha256": "8af98c9996816fec75b022c7cc0a114c5c4b5a583f0edffc9549e29ef6c61964"
+    },
+    "evaluation/HEADS_FULL.npz": {
+      "bytes": 3537670,
+      "sha256": "75d5f0a8cf92fc39c8a72aa01edca988c34128d97025542bea86feeef4878e2b"
+    },
+    "evaluation/SCORES.npz": {
+      "bytes": 18397250,
+      "sha256": "f09fb4bf9cb85052a1a126c8de85262ad04c7a323a4579c9cce1c44763ea1946"
+    },
+    "evaluation/PREDICTIONS.npz": {
+      "bytes": 43081,
+      "sha256": "489421a5c75514a61add962f782775963b83ff232bc0c69ce7a10968216904d8"
+    },
+    "evaluation/PERFORMANCE_ACCESS_STARTED.json": {
+      "bytes": 218,
+      "sha256": "a4b1506ce8b94c31cacc801b801b932410266f4d09d9a71160f53d993c2d3ad0"
+    },
+    "evaluation/METRIC_DEFINITION.json": {
+      "bytes": 588,
+      "sha256": "15d0b0268add5abd1078b0a1ad5aefc8d997a255b2e7379772df0c8df51fc57d"
+    }
+  },
+  "build_lock_sha256": "84f9bf0155a02ad5fdf96d1d8a2c988cdd96e9d2f194e6494c892d1aa330ca52",
+  "source_lock_sha256": "09bcf3a04a37ebe395775b84e60bbe65154e87b537102993c5e507d7e26c887b",
+  "primary_status": "FINAL_UNSEEN_PRIMARY_CONFIRMED_BOTH",
+  "created_utc": "2026-10-06T06:26:18.080796+00:00",
+  "official_TEST_used": false,
+  "stream_count": 1,
+  "protocol_rng_regenerated": false,
+  "no_method_change_after_performance": true
+}
